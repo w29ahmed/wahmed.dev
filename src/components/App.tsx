@@ -1,23 +1,19 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Header from "./Header";
 
-function App() {
+const App = () => {
   return (
-    <Container className="p-3">
+    <Container fluid>
+      <Header />
       <Jumbotron>
-        <h1 className="header">
-          Welcome To React-Bootstrap TypeScript Example
+        <h1>
+          Waleed Ahmed
         </h1>
       </Jumbotron>
-
-      <h1 className="header">Hello World</h1>
-      <Button variant="primary" className="mr-1">
-        Primary
-      </Button>
     </Container>
   );
-}
+};
 
 export default App;
