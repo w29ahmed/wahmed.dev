@@ -1,18 +1,13 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Header from "./Header";
+import About from "./About";
 
 const App = () => {
   return (
-    <Container fluid>
+    <div>
       <Header />
-      <Jumbotron>
-        <h1>
-          Waleed Ahmed
-        </h1>
-      </Jumbotron>
-    </Container>
+      <About />
+    </div>
   );
 };
 
