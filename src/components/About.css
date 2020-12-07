@@ -6,3 +6,15 @@
 #about {
   margin-top: 5%;
 }
+
+/* When width goes below bootstrap "lg" */
+@media (max-width: 991px) {
+  .intro {
+    text-align: center;
+    margin-top: 5%;
+  }
+}
+
+.interests {
+  color: #0e49b5;
+}
