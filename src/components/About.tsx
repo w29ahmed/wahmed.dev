@@ -6,6 +6,8 @@ import Image from "react-bootstrap/Image";
 import Typewriter from "./TypeWriter";
 import "./About.css";
 
+const words = ["Robotics", "Embedded Systems", "Web Development"];
+
 const About = () => {
   return (
     <section id="about">
@@ -18,7 +20,7 @@ const About = () => {
             <h1>
               Hello! I'm Waleed. An aspiring Software Engineer passionate about
               <span className="interests">
-                <Typewriter />
+                <Typewriter words={words}/>
               </span>
             </h1>
           </Col>

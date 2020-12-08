@@ -1,16 +1,25 @@
 import React, { useState, useEffect } from "react";
 import BlinkingCursor from "./BlinkingCursor";
-const words = ["Robotics", "Embedded Systems", "Web Development"];
 
-const TypeWriter = () => {
+// TODO: Enforce words.length > 1, because if not this component breaks :(
+interface TypeWriterProps {
+  words: string[];
+  forwardDelay: number;
+  backDelay: number;
+  pauseDelay: number;
+}
+
+const TypeWriter = (props: TypeWriterProps) => {
   const [pause, setPause] = useState(false);
   const [wordIndex, setWordIndex] = useState(0);
   const [state, setState] = useState({
-    word: words[wordIndex],
+    word: props.words[wordIndex],
     forward: true,
     charIndex: 0
   });
 
+  // Invoked on state change, including initial render. Handles logic for moving
+  // the character index forward and back
   useEffect(() => {
     const timeout = setTimeout(
       () => {
@@ -26,32 +35,35 @@ const TypeWriter = () => {
             setState((prev) => ({ ...prev, charIndex: prev.charIndex - 1 }));
           }
           if (state.charIndex === 0) {
-            setWordIndex((prev) => (prev + 1) % words.length);
+            setWordIndex((prev) => (prev + 1) % props.words.length);
           }
         }
       },
-      state.forward ? 75 : 50
+      state.forward ? props.forwardDelay : props.backDelay
     );
     return () => clearTimeout(timeout);
-  }, [state]);
+  }, [state, props.words.length, props.forwardDelay, props.backDelay]);
 
+  // Invoked when wordIndex changes, updates the current word to type out
   useEffect(() => {
     setState((prev) => ({
       ...prev,
-      word: words[wordIndex],
-      forward: true
+      word: props.words[wordIndex],
+      forward: true,
     }));
-  }, [wordIndex]);
+  }, [wordIndex, props.words]);
 
+  // Invoked when pause is set. Waits for some amount of time before starting
+  // to erase the characters
   useEffect(() => {
     if (pause) {
       const timeout = setTimeout(() => {
         setState((prev) => ({ ...prev, forward: false }));
         setPause(false);
-      }, 1000);
+      }, props.pauseDelay);
       return () => clearTimeout(timeout);
     }
-  }, [pause]);
+  }, [pause, props.pauseDelay]);
 
   return (
     <span>
@@ -59,6 +71,7 @@ const TypeWriter = () => {
       <BlinkingCursor />
     </span>
   );
-}
+};
 
+TypeWriter.defaultProps = { forwardDelay: 75, backDelay: 50, pauseDelay: 1000 };
 export default TypeWriter;
