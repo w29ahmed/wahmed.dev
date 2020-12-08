@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import BlinkingCursor from "./BlinkingCursor";
 
 // TODO: Enforce words.length > 1, because if not this component breaks :(
 interface TypeWriterProps {
@@ -65,12 +64,7 @@ const TypeWriter = (props: TypeWriterProps) => {
     }
   }, [pause, props.pauseDelay]);
 
-  return (
-    <span>
-      {" " + state.word.substring(0, state.charIndex)}
-      <BlinkingCursor />
-    </span>
-  );
+  return <span>{" " + state.word.substring(0, state.charIndex)}</span>;
 };
 
 TypeWriter.defaultProps = { forwardDelay: 75, backDelay: 50, pauseDelay: 1000 };
