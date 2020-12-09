@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Typewriter from "./TypeWriter";
 import BlinkingCursor from "./BlinkingCursor";
-import "./About.css";
+import "./About.scss";
 
 const words = ["Robotics", "Embedded Systems", "Web Development"];
 
