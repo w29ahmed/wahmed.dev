@@ -1,6 +1,7 @@
 .me-img {
   display: block;
   margin: auto;
+  border: 0.5rem solid #0e49b5;
 }
 
 #about {
@@ -37,5 +38,20 @@
   .intro {
     padding-left: 10%;
     padding-right: 10%;
+  }
+}
+
+/* Reduce font size for smaller screens (mobile) */
+@media screen and (max-width: 589px) {
+  .intro-name {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
   }
 }

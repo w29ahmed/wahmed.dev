@@ -1,3 +1,10 @@
 .header {
   font-weight: 800;
 }
+
+.resume-button {
+  background: #0e49b5;
+  font-weight: 700;
+  border-radius: 1.25rem;
+  border-color: transparent;
+}
