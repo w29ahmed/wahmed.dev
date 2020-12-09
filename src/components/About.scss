@@ -1,7 +1,11 @@
+@import "color-themes";
+
 .me-img {
   display: block;
   margin: auto;
-  border: 0.5rem solid #0e49b5;
+  @include themed() {
+    border: 0.5rem solid t("secondary-color");
+  }
 }
 
 #about {
@@ -9,7 +13,9 @@
 }
 
 .secondary-color {
-  color: #0e49b5;
+  @include themed() {
+    color: t("secondary-color");
+  }
 }
 
 .intro-name {

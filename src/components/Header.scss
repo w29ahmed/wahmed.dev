@@ -1,9 +1,13 @@
+@import "color-themes";
+
 .header {
   font-weight: 800;
 }
 
 .resume-button {
-  background: #0e49b5;
+  @include themed() {
+    background: t("secondary-color");
+  }
   font-weight: 700;
   border-radius: 1.25rem;
   border-color: transparent;
