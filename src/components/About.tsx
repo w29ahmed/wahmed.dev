@@ -5,7 +5,8 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Typewriter from "./TypeWriter";
 import BlinkingCursor from "./BlinkingCursor";
-import "./About.scss";
+import WaleedImage from "./assets/img/me.jpg";
+import "./styles/About.scss";
 
 const words = ["Robotics", "Embedded Systems", "Web Development"];
 
@@ -15,18 +16,23 @@ const About = () => {
       <Container fluid>
         <Row className="align-items-center">
           <Col lg={6}>
-            <Image className="me-img" src="/img/me.jpg" roundedCircle fluid />
+            <Image
+              className="about-waleed-img"
+              src={WaleedImage}
+              roundedCircle
+              fluid
+            />
           </Col>
-          <Col className="intro" lg={6}>
-            <h1 className="intro-name">
-              Waleed <span className="secondary-color">Ahmed</span>
+          <Col className="about-intro" lg={6}>
+            <h1>
+              Waleed <span className="about-secondary-color">Ahmed</span>
               <hr />
             </h1>
 
             <h2>
               Hello! I'm an aspiring Software Engineer passionate about
-              <br className="intro-break" />
-              <span className="secondary-color">
+              <br />
+              <span className="about-secondary-color">
                 <Typewriter words={words} />
               </span>
               <BlinkingCursor />

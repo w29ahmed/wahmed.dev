@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from 'react-bootstrap/Button'
-import "./Header.scss";
+import "./styles/Header.scss";
 
 const Header = () => {
   return (
@@ -18,7 +18,7 @@ const Header = () => {
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Button className="resume-button">Resume</Button>
+            <Button className="header-resume-button">Resume</Button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

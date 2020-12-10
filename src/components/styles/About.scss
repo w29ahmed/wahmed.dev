@@ -1,0 +1,70 @@
+@import "bootstrap";
+@import "themes";
+@import "breakpoints";
+
+#about {
+  margin-top: 5%;
+}
+
+.about-waleed-img {
+  display: block;
+  margin: auto;
+  @include themed() {
+    border: 0.5rem solid t("secondary-color");
+  }
+}
+
+.about-intro {
+  h1 {
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: 800;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+.about-secondary-color {
+  @include themed() {
+    color: t("secondary-color");
+  }
+}
+
+@media screen and (max-width: 1362px) {
+  .about-intro {
+    br {
+      display: inline-block;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .about-intro {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .about-intro {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+/* Reduce font size for smaller screens (mobile) */
+@media screen and (max-width: $max-width-font-reduce) {
+  .about-intro {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}

@@ -1,10 +1,10 @@
-@import "color-themes";
+@import "themes";
 
 .header {
   font-weight: 800;
 }
 
-.resume-button {
+.header-resume-button {
   @include themed() {
     background: t("secondary-color");
   }
