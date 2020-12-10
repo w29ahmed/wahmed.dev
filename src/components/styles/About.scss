@@ -32,14 +32,7 @@
   }
 }
 
-@media screen and (max-width: 1362px) {
-  .about-intro {
-    br {
-      display: inline-block;
-    }
-  }
-}
-
+// Bootstrap breakpoint to optimize when layout changes
 @include media-breakpoint-down(md) {
   .about-intro {
     text-align: center;
@@ -52,7 +45,16 @@
   }
 }
 
-/* Reduce font size for smaller screens (mobile) */
+// Breakpoint to ensure TypeWriter text never overflows to newline
+@media screen and (max-width: 1362px) {
+  .about-intro {
+    br {
+      display: inline-block;
+    }
+  }
+}
+
+// Reduce font size for smaller screens (mobile)
 @media screen and (max-width: $max-width-font-reduce) {
   .about-intro {
     h1 {
