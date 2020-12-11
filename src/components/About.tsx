@@ -6,9 +6,8 @@ import Image from "react-bootstrap/Image";
 import Typewriter from "./TypeWriter";
 import BlinkingCursor from "./BlinkingCursor";
 import WaleedImage from "./assets/img/me.jpg";
+import content from "./content.json";
 import "./styles/About.scss";
-
-const words = ["Robotics", "Embedded Systems", "Web Development"];
 
 const About = () => {
   return (
@@ -33,7 +32,7 @@ const About = () => {
               Hello! I'm an aspiring Software Engineer passionate about
               <br />
               <span className="about-secondary-color">
-                <Typewriter words={words} />
+                <Typewriter words={content.interests} />
               </span>
               <BlinkingCursor />
             </h2>
