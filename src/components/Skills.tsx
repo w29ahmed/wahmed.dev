@@ -16,10 +16,10 @@ const Skills = () => {
         </h1>
 
         <Row className="skill-cards">
-          <Col>
+          <Col sm="12" md="12" lg="4">
             <Card className="skill-card">
               <Card.Header>
-                <h3>Languages</h3>
+                <h2>Languages</h2>
               </Card.Header>
               <Card.Body>
                 {content.skills.languages.map((language) => (
@@ -30,10 +30,10 @@ const Skills = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col sm="12" md="6" lg="4" className="middle-card">
             <Card className="skill-card">
               <Card.Header>
-                <h3>Libraries & Frameworks</h3>
+                <h2>Libraries & Frameworks</h2>
               </Card.Header>
               <Card.Body>
                 {content.skills.libraries.map((library) => (
@@ -44,10 +44,10 @@ const Skills = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col sm="12" md="6" lg="4">
             <Card className="skill-card">
               <Card.Header>
-                <h3>Tools & Technologies</h3>
+                <h2>Tools & Technologies</h2>
               </Card.Header>
               <Card.Body>
                 {content.skills.tools.map((tool) => (

@@ -27,6 +27,8 @@
       "MongoDB",
       "Qt",
       ".NET",
+      "NumPy",
+      "Matplotlib",
       "Google Test",
       "TensorFlow"
     ],
@@ -38,6 +40,8 @@
       "SVN",
       "Jenkins",
       "Docker",
+      "Vim",
+      "Bash",
       "Raspberry Pi",
       "Arduino"
     ]

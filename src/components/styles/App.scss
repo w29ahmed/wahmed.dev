@@ -1,3 +1,30 @@
+@import "bootstrap";
+@import "breakpoints";
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+// Reduce font size for smaller screens (mobile)
+@media screen and (max-width: $max-width-font-reduce) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+// Center align everything on medium screens and down
+@include media-breakpoint-down(md) {
+  body {
+    text-align: center;
+  }
 }

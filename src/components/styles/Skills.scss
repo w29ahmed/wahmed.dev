@@ -1,17 +1,20 @@
+@import "bootstrap";
 @import "themes";
+@import "breakpoints";
 
 #skills {
   margin-top: 5%;
 
   h1 {
-    display: inline-block;
-    font-size: 3.5rem;
-    font-weight: 800;
     margin-left: 5%;
   
     hr {
       margin-top: 3%;
     }
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -21,8 +24,7 @@
 }
 
 .skill-card {
-  margin-left: 0%;
-  margin-right: 0%;
+  height: 100%;
 }
 
 .badge-pill {
@@ -30,5 +32,33 @@
   margin: 1%;
   @include themed() {
     background-color: t("secondary-color");
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .skill-cards {
+    .col-md-12 {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .skill-cards {
+    .middle-card {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: $max-width-font-reduce) {
+  .badge-pill {
+    font-size: 0.8rem;
+  }
+
+  #skills {
+    h2 {
+      font-size: 1rem;
+    }
   }
 }

@@ -15,12 +15,6 @@
 }
 
 .about-intro {
-  h1 {
-    display: inline-block;
-    font-size: 3.5rem;
-    font-weight: 800;
-  }
-
   br {
     display: none;
   }
@@ -35,7 +29,6 @@
 // Bootstrap breakpoint to optimize when layout changes
 @include media-breakpoint-down(md) {
   .about-intro {
-    text-align: center;
     margin-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
@@ -48,22 +41,5 @@
     br {
       display: inline-block;
     }
-  }
-}
-
-// Reduce font size for smaller screens (mobile)
-@media screen and (max-width: $max-width-font-reduce) {
-  .about-intro {
-    h1 {
-      font-size: 2rem;
-    }
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1rem;
   }
 }
