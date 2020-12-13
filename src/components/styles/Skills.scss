@@ -1,9 +1,9 @@
 @import "bootstrap";
 @import "themes";
-@import "breakpoints";
+@import "global";
 
 #skills {
-  margin-top: 5%;
+  margin-top: $spacing-between-sections;
 
   h1 {
     margin-left: 5%;
