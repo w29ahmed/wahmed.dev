@@ -2,13 +2,16 @@
 
 .header {
   font-weight: 800;
-}
 
-.header-resume-button {
-  @include themed() {
-    background: t("secondary-color");
+  .resume-button {
+    @include themed() {
+      background: t("secondary-color");
+    }
+    font-weight: 700;
+    border-radius: 1.25rem;
+    border-color: transparent;
   }
-  font-weight: 700;
-  border-radius: 1.25rem;
-  border-color: transparent;
+  .resume-button:hover {
+    opacity: 75%;
+  }
 }

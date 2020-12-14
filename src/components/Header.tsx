@@ -18,7 +18,7 @@ const Header = () => {
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Button className="header-resume-button">Resume</Button>
+            <Button className="resume-button">Resume</Button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
