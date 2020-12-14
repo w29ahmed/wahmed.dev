@@ -12,14 +12,4 @@
       margin-top: 3%;
     }
   }
-
-  .carousel {
-    text-align: center;
-  }
-
-  .arrow {
-    @include themed() {
-      color: t("secondary-color");
-    }
-  }
 }

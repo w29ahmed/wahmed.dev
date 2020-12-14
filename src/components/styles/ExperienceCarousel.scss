@@ -1,0 +1,34 @@
+@import "bootstrap";
+@import "themes";
+@import "global";
+
+.experience-carousel {
+  .left-col {
+    text-align: center;
+  }
+  .right-col {
+    text-align: center;
+  }
+
+  .right-arrow {
+    @include themed() {
+      color: t("secondary-color");
+    }
+  }
+  .right-col:hover {
+    .right-arrow {
+      opacity: 50%;
+    }
+  }
+
+  .left-arrow {
+    @include themed() {
+      color: t("secondary-color");
+    }
+  }
+  .left-col:hover {
+    .left-arrow {
+      opacity: 50%;
+    }
+  }
+}
