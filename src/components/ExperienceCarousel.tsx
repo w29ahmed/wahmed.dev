@@ -87,11 +87,19 @@ const ExperienceCarousel = () => {
                   </Col>
 
                   <Col className="company-logo-col">
-                    <img
-                      src={process.env.PUBLIC_URL + experience.jobs[index].logo}
-                      className="company-logo"
-                      alt="company logo"
-                    ></img>
+                    <a
+                      href={experience.jobs[index].website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src={
+                          process.env.PUBLIC_URL + experience.jobs[index].logo
+                        }
+                        className="company-logo"
+                        alt="company logo"
+                      />
+                    </a>
                   </Col>
 
                   <Col lg="12">
@@ -110,7 +118,7 @@ const ExperienceCarousel = () => {
 
                 <ul className="experience-bullets">
                   {experience.jobs[index].bullets.map((bullet) => (
-                    <li dangerouslySetInnerHTML={{__html:bullet}}></li>
+                    <li dangerouslySetInnerHTML={{ __html: bullet }}></li>
                   ))}
                 </ul>
               </Container>
