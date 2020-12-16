@@ -10,9 +10,8 @@ import {
   FaCalendar,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import experience from "./content/experience.json";
 import "./styles/ExperienceCarousel.scss";
-
-const words = ["index 0", "index 1", "index 2", "index 3", "index 4"];
 
 const ExperienceCarousel = () => {
   const [index, setIndex] = useState(0);
@@ -34,13 +33,17 @@ const ExperienceCarousel = () => {
     // "fade-left" = right button clicked, so go an index forward in the content array
     if (animate === "fade-left") {
       setIndex(
-        (prev) => (prev + (1 % words.length) + words.length) % words.length
+        (prev) =>
+          (prev + (1 % experience.jobs.length) + experience.jobs.length) %
+          experience.jobs.length
       );
     }
     // "fade-right" = left button clicked, so go an index back in the content array
     else if (animate === "fade-right") {
       setIndex(
-        (prev) => (prev - (1 % words.length) + words.length) % words.length
+        (prev) =>
+          (prev - (1 % experience.jobs.length) + experience.jobs.length) %
+          experience.jobs.length
       );
     }
   }, [animate]);
@@ -76,14 +79,16 @@ const ExperienceCarousel = () => {
                 <Row>
                   <Col lg="8">
                     <h2 className="position-title">
-                      Autonomous Vehicles Software Engineering Intern
+                      {experience.jobs[index].title}
                     </h2>
-                    <h3 className="company-name">Company Name</h3>
+                    <h3 className="company-name">
+                      {experience.jobs[index].company}
+                    </h3>
                   </Col>
 
                   <Col className="company-logo-col">
                     <img
-                      src={process.env.PUBLIC_URL + "/assets/img/qualcomm.png"}
+                      src={process.env.PUBLIC_URL + experience.jobs[index].logo}
                       className="company-logo"
                       alt="company logo"
                     ></img>
@@ -91,30 +96,22 @@ const ExperienceCarousel = () => {
 
                   <Col lg="12">
                     <FaCalendar className="calendar" />
-                    Date
+                    {experience.jobs[index].date}
                     <FaMapMarkerAlt className="map-marker" />
-                    Location
+                    {experience.jobs[index].location}
                   </Col>
                 </Row>
 
-                <Badge pill variant="primary">
-                    skill1
-                </Badge>
-                <Badge pill variant="primary">
-                    skill2
-                </Badge>
-                <Badge pill variant="primary">
-                    skill3
-                </Badge>
-                <Badge pill variant="primary">
-                    skill4
-                </Badge>
+                {experience.jobs[index].skills.map((skill) => (
+                  <Badge pill variant="primary">
+                    {skill}
+                  </Badge>
+                ))}
 
                 <ul className="experience-bullets">
-                  <li>test</li>
-                  <li>test</li>
-                  <li>test</li>
-                  <li>test</li>
+                  {experience.jobs[index].bullets.map((bullet) => (
+                    <li dangerouslySetInnerHTML={{__html:bullet}}></li>
+                  ))}
                 </ul>
               </Container>
             </CSSTransition>

@@ -1,0 +1,36 @@
+{
+  "jobs": [
+    {
+      "title": "Autonomous Vehicles Software Engineering Intern",
+      "company": "Huawei",
+      "logo": "/assets/img/huawei.png",
+      "date": "Sep 2020 -- Dec 2020",
+      "location": "Toronto, ON",
+      "skills": [
+        "C++",
+        "ROS",
+        "Google Test",
+        "Matplotlib",
+        "Git",
+        "Linux",
+        "LaTeX"
+      ],
+      "bullets": [
+        "Developed a unit test suite for a Frenét frame motion planning stack with <b>90%</b> code coverage using Google Test",
+        "Designed and implemented a path building library using <b>C++</b> to aid in construction of a wide variety of reference paths to test motion planning algorithms on"
+      ]
+    },
+    {
+      "title": "Automotive ADAS Software Engineering Intern",
+      "company": "Qualcomm",
+      "logo": "/assets/img/qualcomm.png",
+      "date": "Jan 2020 -- Apr 2020",
+      "location": "Toronto, ON",
+      "skills": ["C++", "C", "Assembly", "OpenCV", "Perforce", "QNX", "Linux"],
+      "bullets": [
+        "Developed system and application software for an ADAS & autonomous driving platform in <b>C/C++</b>",
+        "Accelerated performance of a <b>computer vision SDK</b> by an average of 20x by leveraging available hardware and software architecture in automotive focused Snapdragon SoCs"
+      ]
+    }
+  ]
+}
