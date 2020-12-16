@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
-import content from "./content.json";
+import skills from "./content/skills.json";
 import "./styles/Skills.scss";
 
 const Skills = () => {
@@ -22,7 +22,7 @@ const Skills = () => {
                 <h2>Languages</h2>
               </Card.Header>
               <Card.Body>
-                {content.skills.languages.map((language) => (
+                {skills.languages.map((language) => (
                   <Badge pill variant="primary">
                     {language}
                   </Badge>
@@ -36,7 +36,7 @@ const Skills = () => {
                 <h2>Libraries & Frameworks</h2>
               </Card.Header>
               <Card.Body>
-                {content.skills.libraries.map((library) => (
+                {skills.libraries.map((library) => (
                   <Badge pill variant="primary">
                     {library}
                   </Badge>
@@ -50,7 +50,7 @@ const Skills = () => {
                 <h2>Tools & Technologies</h2>
               </Card.Header>
               <Card.Body>
-                {content.skills.tools.map((tool) => (
+                {skills.tools.map((tool) => (
                   <Badge pill variant="primary">
                     {tool}
                   </Badge>

@@ -12,8 +12,6 @@ import {
 } from "react-icons/fa";
 import "./styles/ExperienceCarousel.scss";
 
-import QualcommLogo from "./assets/img/qualcomm.png";
-
 const words = ["index 0", "index 1", "index 2", "index 3", "index 4"];
 
 const ExperienceCarousel = () => {
@@ -85,7 +83,7 @@ const ExperienceCarousel = () => {
 
                   <Col className="company-logo-col">
                     <img
-                      src={QualcommLogo}
+                      src={process.env.PUBLIC_URL + "/assets/img/qualcomm.png"}
                       className="company-logo"
                       alt="company logo"
                     ></img>

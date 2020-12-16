@@ -5,8 +5,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Typewriter from "./TypeWriter";
 import BlinkingCursor from "./BlinkingCursor";
-import WaleedImage from "./assets/img/me.jpg";
-import content from "./content.json";
+import about from "./content/about.json";
 import "./styles/About.scss";
 
 const About = () => {
@@ -17,7 +16,7 @@ const About = () => {
           <Col lg={6}>
             <Image
               className="about-waleed-img"
-              src={WaleedImage}
+              src={process.env.PUBLIC_URL + about.img}
               roundedCircle
               fluid
             />
@@ -32,7 +31,7 @@ const About = () => {
               Hello! I'm an aspiring Software Engineer passionate about
               <br />
               <span className="about-secondary-color">
-                <Typewriter words={content.interests} />
+                <Typewriter words={about.interests} />
               </span>
               <BlinkingCursor />
             </h2>
