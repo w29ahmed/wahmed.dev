@@ -3,6 +3,7 @@ import { SwitchTransition, CSSTransition } from "react-transition-group";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Badge from "react-bootstrap/Badge";
 import {
   FaAngleRight,
   FaAngleLeft,
@@ -83,16 +84,33 @@ const ExperienceCarousel = () => {
                   </Col>
 
                   <Col className="company-logo-col">
-                    <img src={QualcommLogo} className="company-logo" alt="company logo"></img>
+                    <img
+                      src={QualcommLogo}
+                      className="company-logo"
+                      alt="company logo"
+                    ></img>
                   </Col>
 
-                  <Col lg="4">
+                  <Col lg="12">
                     <FaCalendar className="calendar" />
                     Date
                     <FaMapMarkerAlt className="map-marker" />
                     Location
                   </Col>
                 </Row>
+
+                <Badge pill variant="primary">
+                    skill1
+                </Badge>
+                <Badge pill variant="primary">
+                    skill2
+                </Badge>
+                <Badge pill variant="primary">
+                    skill3
+                </Badge>
+                <Badge pill variant="primary">
+                    skill4
+                </Badge>
 
                 <ul className="experience-bullets">
                   <li>test</li>
