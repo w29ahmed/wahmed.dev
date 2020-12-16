@@ -3,8 +3,15 @@ import { SwitchTransition, CSSTransition } from "react-transition-group";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+import {
+  FaAngleRight,
+  FaAngleLeft,
+  FaCalendar,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 import "./styles/ExperienceCarousel.scss";
+
+import QualcommLogo from "./assets/img/qualcomm.png";
 
 const words = ["index 0", "index 1", "index 2", "index 3", "index 4"];
 
@@ -20,9 +27,7 @@ const ExperienceCarousel = () => {
   // animation finishes running, which is gonna look like the animation stopped abruptly.
   // There's gotta be a better way to do this because this feels like a hack
   useEffect(() => {
-    const timeout = setTimeout(
-      () => setAnimate(""), 300
-    );
+    const timeout = setTimeout(() => setAnimate(""), 300);
     return () => clearTimeout(timeout);
   }, [index]);
 
@@ -30,15 +35,13 @@ const ExperienceCarousel = () => {
     // "fade-left" = right button clicked, so go an index forward in the content array
     if (animate === "fade-left") {
       setIndex(
-        (prev) =>
-          (prev + 1 % words.length + words.length) % words.length
+        (prev) => (prev + (1 % words.length) + words.length) % words.length
       );
     }
     // "fade-right" = left button clicked, so go an index back in the content array
     else if (animate === "fade-right") {
       setIndex(
-        (prev) =>
-          (prev - 1 % words.length + words.length) % words.length
+        (prev) => (prev - (1 % words.length) + words.length) % words.length
       );
     }
   }, [animate]);
@@ -51,10 +54,10 @@ const ExperienceCarousel = () => {
           sm={{ order: 2, span: 6 }}
           md={{ order: 1, span: 1 }}
           lg={{ order: 1, span: 2 }}
-          className="left-col"
+          className="arrow-col"
           onClick={() => setAnimate("fade-right")}
         >
-          <FaAngleLeft className="left-arrow" size={40} />
+          <FaAngleLeft className="arrow" size={40} />
         </Col>
         <Col
           xs={{ order: 1, span: 12 }}
@@ -70,10 +73,34 @@ const ExperienceCarousel = () => {
               }}
               classNames={animate}
             >
-              <div>
-                <h1>{words[index]}</h1>
-                <h2>{words[index]}</h2>
-              </div>
+              <Container fluid>
+                <Row>
+                  <Col lg="8">
+                    <h2 className="position-title">
+                      Autonomous Vehicles Software Engineering Intern
+                    </h2>
+                    <h3 className="company-name">Company Name</h3>
+                  </Col>
+
+                  <Col className="company-logo-col">
+                    <img src={QualcommLogo} className="company-logo" alt="company logo"></img>
+                  </Col>
+
+                  <Col lg="4">
+                    <FaCalendar className="calendar" />
+                    Date
+                    <FaMapMarkerAlt className="map-marker" />
+                    Location
+                  </Col>
+                </Row>
+
+                <ul className="experience-bullets">
+                  <li>test</li>
+                  <li>test</li>
+                  <li>test</li>
+                  <li>test</li>
+                </ul>
+              </Container>
             </CSSTransition>
           </SwitchTransition>
         </Col>
@@ -82,10 +109,10 @@ const ExperienceCarousel = () => {
           sm={{ order: 3, span: 6 }}
           md={{ order: 3, span: 1 }}
           lg={{ order: 3, span: 2 }}
-          className="right-col"
+          className="arrow-col"
           onClick={() => setAnimate("fade-left")}
         >
-          <FaAngleRight className="right-arrow" size={40} />
+          <FaAngleRight className="arrow" size={40} />
         </Col>
       </Row>
     </Container>

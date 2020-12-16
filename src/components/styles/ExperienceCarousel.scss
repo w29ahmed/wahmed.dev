@@ -3,33 +3,21 @@
 @import "global";
 
 .experience-carousel {
-  .left-col {
-    text-align: center;
+  .arrow-col {
+    display: flex;
+    align-items: center;
   }
-  .right-col {
-    text-align: center;
-  }
-
-  .right-arrow {
-    @include themed() {
-      color: t("secondary-color");
-    }
-  }
-  .right-col:hover {
-    .right-arrow {
+  .arrow-col:hover {
+    .arrow {
       opacity: 50%;
     }
   }
 
-  .left-arrow {
+  .arrow {
     @include themed() {
       color: t("secondary-color");
     }
-  }
-  .left-col:hover {
-    .left-arrow {
-      opacity: 50%;
-    }
+    margin: auto;
   }
 
   .fade-left-enter {
@@ -71,5 +59,38 @@
   .fade-right-enter-active,
   .fade-right-exit-active {
     transition: opacity 250ms, transform 250ms;
+  }
+
+  .map-marker {
+    margin-left: 20%;
+  }
+
+  .calendar, .map-marker {
+    margin-right: 10px;
+  }
+
+  .position-title {
+    font-weight: 600;
+  }
+
+  .company-name {
+    @include themed() {
+      color: t("secondary-color");
+    }
+  }
+
+  .experience-bullets {
+    margin-top: 20px;
+  }
+
+  .company-logo-col {
+    display: flex;
+    align-items: center;
+  }
+
+  .company-logo {
+    margin: auto;
+    max-height: 120px;
+    width: auto;
   }
 }
