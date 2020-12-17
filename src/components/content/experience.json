@@ -41,13 +41,52 @@
       "logo": "/assets/img/christie.png",
       "date": "May 2019 -- Aug 2019",
       "location": "Kitchener, ON",
-      "skills": ["C++", "QML", "Qt", "Google Test", "SVN", "Git", "Linux", "Jenkins"],
+      "skills": [
+        "C++",
+        "QML",
+        "Qt",
+        "Google Test",
+        "SVN",
+        "Git",
+        "Linux",
+        "Jenkins"
+      ],
       "bullets": [
-        "Worked closely with QA and UI/UX designers for user interface development and maintenance to meet release deadlines across a wide variety of platforms using the <b>Qt</b> framework in <b>C++</b> and <b>QML</b>",
+        "Worked closely with QA and UI/UX designers for user interface development and maintenance to meet release deadlines across a wide variety of projector platforms using the <b>Qt</b> framework in <b>C++</b> and <b>QML</b>",
         "Significantly reduced the effort needed to maintain code health through software architecture redesign and setup of a continuous integration pipeline on a <b>Jenkins</b> build server that included unit tests with <b>90%</b> code coverage using <b>Google Test</b>",
         "User interface and backend development for <a href='https://www.christiedigital.com/products/projector-management/conductor/' target='_blank' rel='noopener noreferrer'><b>Christie Conductor</b></a>, an application that enables efficient control and monitoring of up to 256 projectors. Originally developed to be used at <a href='https://www.christiedigital.com/expo2020' target='_blank' rel='noopener noreferrer'>Expo 2020 in Dubai</a>."
+      ]
+    },
+    {
+      "title": "Video Software Engineering Intern",
+      "company": "Synaptive Medical",
+      "website": "https://www.synaptivemedical.com/",
+      "logo": "/assets/img/synaptive.jpg",
+      "date": "Sep 2018 -- Dec 2018",
+      "location": "Toronto, ON",
+      "skills": [
+        "C#",
+        "C++",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        ".NET",
+        "OpenCV",
+        "Pandas",
+        "Matplotlib",
+        "NumPy",
+        "Git",
+        "Jenkins"
+      ],
+      "bullets": [
+        "Worked on the video platform for <a href='https://www.synaptivemedical.com/products/modus-v/' target='_blank' rel='noopener noreferrer'><b>Modus V</b></a>, a robotic digital microscopy platform for cranial and spinal surgery",
+        "Improved visibility of biological tissue during surgical procedures through colour manipulation using <b>C++(OpenCV)</b> and <b>C#</b>",
+        "Facilitated full control of camera settings through a <b>.NET</b> application that served as a front-end interface to a serial communication protocol",
+        "Enabled intuitive usage of a colour manipulation algorithm through a web interface built with <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b>",
+        "Post-processed image data in <b>Python</b> using <b>Pandas</b>, <b>NumPy</b>, and <b>Matplotlib</b> to analyze colour manipulation",
+        "Used <b>C#</b> to integrate image processing algorithms with existing software architecture in a Windows environment"
       ]
     }
   ]
 }
-
