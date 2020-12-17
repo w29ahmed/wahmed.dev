@@ -80,13 +80,31 @@
         "Jenkins"
       ],
       "bullets": [
-        "Worked on the video platform for <a href='https://www.synaptivemedical.com/products/modus-v/' target='_blank' rel='noopener noreferrer'><b>Modus V</b></a>, a robotic digital microscopy platform for cranial and spinal surgery",
+        "Worked on the video platform for <a href='https://www.synaptivemedical.com/products/modus-v/' target='_blank' rel='noopener noreferrer'><b>Modus V</b></a>, a robotic digital microscopy solution for cranial and spinal surgery",
         "Improved visibility of biological tissue during surgical procedures through colour manipulation using <b>C++(OpenCV)</b> and <b>C#</b>",
         "Facilitated full control of camera settings through a <b>.NET</b> application that served as a front-end interface to a serial communication protocol",
         "Enabled intuitive usage of a colour manipulation algorithm through a web interface built with <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b>",
         "Post-processed image data in <b>Python</b> using <b>Pandas</b>, <b>NumPy</b>, and <b>Matplotlib</b> to analyze colour manipulation",
         "Used <b>C#</b> to integrate image processing algorithms with existing software architecture in a Windows environment"
       ]
+    },
+    {
+      "title": "Industrial Imaging Software Engineering Intern",
+      "company": "P&P Optica",
+      "website": "https://ppo.ca/",
+      "logo": "/assets/img/ppo.png",
+      "date": "Jan 2018 -- Apr 2018",
+      "location": "Waterloo, ON",
+      "skills": [
+        "Python", "C", "asyncio", "NumPy", "OpenCV", "Matplotlib", "Linux", "Git"
+      ],
+      "bullets": [
+        "Software feature development for PPO's <a href='https://ppo.ca/smart-imaging-system/' target='_blank' rel='noopener noreferrer'><b>Smart Imaging System</b></a>, which enables real-time food quality analysis",
+        "Developed a robust image acquisition framework using <b>Python</b> and <b>asyncio</b> for rapid line scan imaging of food on an industrial conveyor belt",
+        "Implemented image correction algorithms and post-processing for industrial cameras in <b>Python</b> using <b>NumPy</b>, <b>OpenCV</b>, and <b>Matplotlib</b>",
+        "Restructured camera control modules in <b>C</b>"
+      ]
     }
   ]
 }
+
