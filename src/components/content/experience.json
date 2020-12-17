@@ -31,8 +31,23 @@
       "skills": ["C++", "C", "Assembly", "OpenCV", "Perforce", "QNX", "Linux"],
       "bullets": [
         "Developed system and application software for an ADAS & autonomous driving platform in <b>C/C++</b>",
-        "Accelerated performance of a <a href='https://developer.qualcomm.com/software/fastcv-sdk' target='_blank' rel='noopener noreferrer'> <b> computer vision SDK </b> </a> by an average of 20x by leveraging available hardware and software architecture in automotive focused Snapdragon SoCs"
+        "Accelerated performance of a <a href='https://developer.qualcomm.com/software/fastcv-sdk' target='_blank' rel='noopener noreferrer'><b>computer vision SDK</b></a> by an average of 20x by leveraging available hardware and software architecture in automotive focused Snapdragon SoCs"
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "Christie Digital",
+      "website": "https://www.christiedigital.com/",
+      "logo": "/assets/img/christie.png",
+      "date": "May 2019 -- Aug 2019",
+      "location": "Kitchener, ON",
+      "skills": ["C++", "QML", "Qt", "Google Test", "SVN", "Git", "Linux", "Jenkins"],
+      "bullets": [
+        "Worked closely with QA and UI/UX designers for user interface development and maintenance to meet release deadlines across a wide variety of platforms using the <b>Qt</b> framework in <b>C++</b> and <b>QML</b>",
+        "Significantly reduced the effort needed to maintain code health through software architecture redesign and setup of a continuous integration pipeline on a <b>Jenkins</b> build server that included unit tests with <b>90%</b> code coverage using <b>Google Test</b>",
+        "User interface and backend development for <a href='https://www.christiedigital.com/products/projector-management/conductor/' target='_blank' rel='noopener noreferrer'><b>Christie Conductor</b></a>, an application that enables efficient control and monitoring of up to 256 projectors. Originally developed to be used at <a href='https://www.christiedigital.com/expo2020' target='_blank' rel='noopener noreferrer'>Expo 2020 in Dubai</a>."
       ]
     }
   ]
 }
+

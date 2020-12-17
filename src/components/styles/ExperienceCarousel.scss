@@ -88,9 +88,14 @@
     align-items: center;
   }
 
+  a {
+    margin: auto;
+  }
+
   .company-logo {
     margin: auto;
     max-height: 120px;
-    width: auto;
+    max-width: 360px;
+    // width: auto;
   }
 }
