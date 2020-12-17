@@ -5,7 +5,7 @@
       "company": "Huawei",
       "website": "https://www.huawei.com/ca/",
       "logo": "/assets/img/huawei.png",
-      "date": "Sep 2020 -- Dec 2020",
+      "date": "Sep 2020 - Dec 2020",
       "location": "Toronto, ON",
       "skills": [
         "C++",
@@ -14,11 +14,15 @@
         "Matplotlib",
         "Git",
         "Linux",
+        "Docker",
         "LaTeX"
       ],
       "bullets": [
-        "Developed a unit test suite for a Frenét frame motion planning stack with <b>90%</b> code coverage using Google Test",
-        "Designed and implemented a path building library using <b>C++</b> to aid in construction of a wide variety of reference paths to test motion planning algorithms on"
+        "Research and development of motion planning software for level 4+ autonomous vehicle applications as apart of Huawei's <a href='https://www.noahlab.com.hk/#/home' target='_blank' rel='noopener noreferrer'><b>Noah's Ark Lab</b></a>",
+        "Developed a unit test suite for a Frenét frame motion planning stack with <b>90%</b> code coverage using <b>Google Test</b>",
+        "Designed and implemented a path-building library using <b>C++</b> to aid in the construction of a wide variety of reference paths to test motion planning algorithms on",
+        "Used <b>C++</b> and <b>Matplotlib</b> to implement scripts that collect and save plots of trajectory characteristics over time (position, velocity, acceleration, jerk, road curvature, etc.) to aid in exposing flaws in motion planning algorithms",
+        "Wrote a technical report using <b>LaTeX</b> that provided a comprehensive system overview of trajectory generation and evaluation"
       ]
     },
     {
@@ -26,12 +30,13 @@
       "company": "Qualcomm",
       "website": "https://www.qualcomm.com/",
       "logo": "/assets/img/qualcomm.png",
-      "date": "Jan 2020 -- Apr 2020",
+      "date": "Jan 2020 - Apr 2020",
       "location": "Toronto, ON",
       "skills": ["C++", "C", "Assembly", "OpenCV", "Perforce", "QNX", "Linux"],
       "bullets": [
+        "Supported bring up of high-performance software initially written for mobile SoCs onto Qualcomm's <a href='https://www.qualcomm.com/products/automotive/autonomous-driving' target='_blank' rel='noopener noreferrer'><b>Snapdragon Ride platform</b></a>",
         "Developed system and application software for an ADAS & autonomous driving platform in <b>C/C++</b>",
-        "Accelerated performance of a <a href='https://developer.qualcomm.com/software/fastcv-sdk' target='_blank' rel='noopener noreferrer'><b>computer vision SDK</b></a> by an average of 20x by leveraging available hardware and software architecture in automotive focused Snapdragon SoCs"
+        "Accelerated performance of a <a href='https://developer.qualcomm.com/software/fastcv-sdk' target='_blank' rel='noopener noreferrer'><b>computer vision SDK</b></a> by an average of <b>20x</b> by leveraging available hardware and software architecture in automotive focused Snapdragon SoCs"
       ]
     },
     {
@@ -39,7 +44,7 @@
       "company": "Christie Digital",
       "website": "https://www.christiedigital.com/",
       "logo": "/assets/img/christie.png",
-      "date": "May 2019 -- Aug 2019",
+      "date": "May 2019 - Aug 2019",
       "location": "Kitchener, ON",
       "skills": [
         "C++",
@@ -62,7 +67,7 @@
       "company": "Synaptive Medical",
       "website": "https://www.synaptivemedical.com/",
       "logo": "/assets/img/synaptive.jpg",
-      "date": "Sep 2018 -- Dec 2018",
+      "date": "Sep 2018 - Dec 2018",
       "location": "Toronto, ON",
       "skills": [
         "C#",
@@ -81,10 +86,10 @@
       ],
       "bullets": [
         "Worked on the video platform for <a href='https://www.synaptivemedical.com/products/modus-v/' target='_blank' rel='noopener noreferrer'><b>Modus V</b></a>, a robotic digital microscopy solution for cranial and spinal surgery",
-        "Improved visibility of biological tissue during surgical procedures through colour manipulation using <b>C++(OpenCV)</b> and <b>C#</b>",
+        "Improved visibility of biological tissue during surgical procedures through color manipulation using <b>C++(OpenCV)</b> and <b>C#</b>",
         "Facilitated full control of camera settings through a <b>.NET</b> application that served as a front-end interface to a serial communication protocol",
-        "Enabled intuitive usage of a colour manipulation algorithm through a web interface built with <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b>",
-        "Post-processed image data in <b>Python</b> using <b>Pandas</b>, <b>NumPy</b>, and <b>Matplotlib</b> to analyze colour manipulation",
+        "Enabled intuitive usage of a color manipulation algorithm through a web interface built with <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b>",
+        "Post-processed image data in <b>Python</b> using <b>Pandas</b>, <b>NumPy</b>, and <b>Matplotlib</b> to analyze color manipulation",
         "Used <b>C#</b> to integrate image processing algorithms with existing software architecture in a Windows environment"
       ]
     },
@@ -93,7 +98,7 @@
       "company": "P&P Optica",
       "website": "https://ppo.ca/",
       "logo": "/assets/img/ppo.png",
-      "date": "Jan 2018 -- Apr 2018",
+      "date": "Jan 2018 - Apr 2018",
       "location": "Waterloo, ON",
       "skills": [
         "Python", "C", "asyncio", "NumPy", "OpenCV", "Matplotlib", "Linux", "Git"
@@ -102,9 +107,11 @@
         "Software feature development for PPO's <a href='https://ppo.ca/smart-imaging-system/' target='_blank' rel='noopener noreferrer'><b>Smart Imaging System</b></a>, which enables real-time food quality analysis",
         "Developed a robust image acquisition framework using <b>Python</b> and <b>asyncio</b> for rapid line scan imaging of food on an industrial conveyor belt",
         "Implemented image correction algorithms and post-processing for industrial cameras in <b>Python</b> using <b>NumPy</b>, <b>OpenCV</b>, and <b>Matplotlib</b>",
-        "Restructured camera control modules in <b>C</b>"
+        "Restructured camera control modules in <b>C</b>",
+        "Documented software design decisions and a troubleshooting guide to efficiently debug issues pertaining to image acquisition"
       ]
     }
   ]
 }
+
 
