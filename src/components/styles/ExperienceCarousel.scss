@@ -9,7 +9,7 @@
   }
   .arrow-col:hover {
     .arrow {
-      opacity: .5;
+      opacity: 0.5;
     }
   }
 
@@ -62,10 +62,11 @@
   }
 
   .map-marker {
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
-  .calendar, .map-marker {
+  .calendar,
+  .map-marker {
     margin-right: 10px;
   }
 
@@ -81,21 +82,76 @@
 
   .experience-bullets {
     margin-top: 20px;
+    text-align: left;
   }
 
   .company-logo-col {
     display: flex;
     align-items: center;
+    width: 100%;
   }
 
   a {
     margin: auto;
   }
 
-  .company-logo {
+  .huawei,
+  .qualcomm,
+  .christie,
+  .synaptive,
+  .ppo {
     margin: auto;
-    max-height: 120px;
-    max-width: 360px;
-    // width: auto;
+    max-height: 90px;
+    max-width: 100%;
+  }
+
+  .icon-text {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .badge-pill {
+    margin: 10px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .experience-carousel {
+    .christie {
+      max-width: 50%;
+    }
+
+    .icon-text {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: $max-width-font-reduce) {
+  .experience-carousel {
+    .huawei,
+    .qualcomm,
+    .christie,
+    .synaptive,
+    .ppo {
+      max-height: 50px;
+    }
+
+    .badge-pill {
+      margin: 3px;
+    }
+
+    .experience-bullets {
+      margin-top: 5px;
+    }
+
+    .map-marker {
+      margin-left: 5%;
+    }
+
+    .calendar,
+    .map-marker {
+      margin-right: 5px;
+    }
   }
 }

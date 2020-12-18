@@ -3,6 +3,7 @@
     {
       "title": "Autonomous Vehicles Software Engineering Intern",
       "company": "Huawei",
+      "css": "huawei",
       "website": "https://www.huawei.com/ca/",
       "logo": "/assets/img/huawei.png",
       "date": "Sep 2020 - Dec 2020",
@@ -28,6 +29,7 @@
     {
       "title": "Automotive ADAS Software Engineering Intern",
       "company": "Qualcomm",
+      "css": "qualcomm",
       "website": "https://www.qualcomm.com/",
       "logo": "/assets/img/qualcomm.png",
       "date": "Jan 2020 - Apr 2020",
@@ -42,6 +44,7 @@
     {
       "title": "Software Engineering Intern",
       "company": "Christie Digital",
+      "css": "christie",
       "website": "https://www.christiedigital.com/",
       "logo": "/assets/img/christie.png",
       "date": "May 2019 - Aug 2019",
@@ -65,6 +68,7 @@
     {
       "title": "Video Software Engineering Intern",
       "company": "Synaptive Medical",
+      "css": "synaptive",
       "website": "https://www.synaptivemedical.com/",
       "logo": "/assets/img/synaptive.jpg",
       "date": "Sep 2018 - Dec 2018",
@@ -96,6 +100,7 @@
     {
       "title": "Industrial Imaging Software Engineering Intern",
       "company": "P&P Optica",
+      "css": "ppo",
       "website": "https://ppo.ca/",
       "logo": "/assets/img/ppo.png",
       "date": "Jan 2018 - Apr 2018",

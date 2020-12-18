@@ -96,7 +96,7 @@ const ExperienceCarousel = () => {
                         src={
                           process.env.PUBLIC_URL + experience.jobs[index].logo
                         }
-                        className="company-logo"
+                        className={experience.jobs[index].css}
                         alt="company logo"
                       />
                     </a>
@@ -104,9 +104,9 @@ const ExperienceCarousel = () => {
 
                   <Col lg="12">
                     <FaCalendar className="calendar" />
-                    {experience.jobs[index].date}
+                    <p className="icon-text">{experience.jobs[index].date}</p>
                     <FaMapMarkerAlt className="map-marker" />
-                    {experience.jobs[index].location}
+                    <p className="icon-text">{experience.jobs[index].location}</p>
                   </Col>
                 </Row>
 
