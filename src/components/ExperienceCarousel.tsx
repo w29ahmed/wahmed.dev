@@ -9,7 +9,7 @@ import {
   FaAngleLeft,
   FaCalendar,
   FaMapMarkerAlt,
-  FaCircle
+  FaCircle,
 } from "react-icons/fa";
 import experience from "./content/experience.json";
 import "./styles/ExperienceCarousel.scss";
@@ -147,7 +147,9 @@ const ExperienceCarousel = () => {
           className="indicators"
         >
           {experience.jobs.map((job, i) => (
-            <FaCircle className={i === index ? "indicator-active" : "indicator-dot"} size={10}/>
+            <FaCircle
+              className={i === index ? "indicator-active" : "indicator-dot"}
+            />
           ))}
         </Col>
       </Row>
