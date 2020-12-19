@@ -113,6 +113,29 @@
   .badge-pill {
     margin: 10px;
   }
+
+  .indicators {
+    @include themed() {
+      color: t("secondary-color");
+    }
+    text-align: center;
+  }
+
+  .indicator-dot {
+    margin: 5px;
+    opacity: 0.25;
+    width: 5px;
+    height: 5px;
+    transition: opacity 250ms, width 250ms, height 250ms;
+  }
+
+  .indicator-active {
+    margin: 5px;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    transition: opacity 250ms, width 250ms, height 250ms;
+  }
 }
 
 @include media-breakpoint-down(md) {

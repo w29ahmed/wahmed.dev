@@ -9,6 +9,7 @@ import {
   FaAngleLeft,
   FaCalendar,
   FaMapMarkerAlt,
+  FaCircle
 } from "react-icons/fa";
 import experience from "./content/experience.json";
 import "./styles/ExperienceCarousel.scss";
@@ -52,8 +53,8 @@ const ExperienceCarousel = () => {
     <Container className="experience-carousel" fluid>
       <Row>
         <Col
-          xs={{ order: 2, span: 6 }}
-          sm={{ order: 2, span: 6 }}
+          xs={{ order: 3, span: 6 }}
+          sm={{ order: 3, span: 6 }}
           md={{ order: 1, span: 1 }}
           lg={{ order: 1, span: 2 }}
           className="arrow-col"
@@ -106,7 +107,9 @@ const ExperienceCarousel = () => {
                     <FaCalendar className="calendar" />
                     <p className="icon-text">{experience.jobs[index].date}</p>
                     <FaMapMarkerAlt className="map-marker" />
-                    <p className="icon-text">{experience.jobs[index].location}</p>
+                    <p className="icon-text">
+                      {experience.jobs[index].location}
+                    </p>
                   </Col>
                 </Row>
 
@@ -126,14 +129,26 @@ const ExperienceCarousel = () => {
           </SwitchTransition>
         </Col>
         <Col
-          xs={{ order: 3, span: 6 }}
-          sm={{ order: 3, span: 6 }}
+          xs={{ order: 4, span: 6 }}
+          sm={{ order: 4, span: 6 }}
           md={{ order: 3, span: 1 }}
           lg={{ order: 3, span: 2 }}
           className="arrow-col"
           onClick={() => setAnimate("fade-left")}
         >
           <FaAngleRight className="arrow" size={40} />
+        </Col>
+
+        <Col
+          xs={{ order: 2, span: 12 }}
+          sm={{ order: 2, span: 12 }}
+          md={{ order: 4, span: 12 }}
+          lg={{ order: 4, span: 12 }}
+          className="indicators"
+        >
+          {experience.jobs.map((job, i) => (
+            <FaCircle className={i === index ? "indicator-active" : "indicator-dot"} size={10}/>
+          ))}
         </Col>
       </Row>
     </Container>
