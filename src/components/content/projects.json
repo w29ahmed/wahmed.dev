@@ -1,12 +1,24 @@
 {
   "projects": [
     {
+      "title": "This Website!",
+      "skills": ["TypeScript", "Sass", "HTML", "React", "Bootstrap"],
+      "bullets": [
+        "Fully designed and built by me",
+        "<b>Bootstrap</b> used for responsive layout and as a <b>React</b> component library",
+        "<b>Sass</b> mixins used to switch between light and dark theme"
+      ],
+      "githubLinks": [
+        "https://github.com/w29ahmed/w29ahmed.github.io"
+      ]
+    },
+    {
       "title": "Autonomous Robot Racing",
       "skills": ["C++", "Python", "OpenCV", "ROS"],
       "bullets": [
-        "Built as apart of the <a href='https://uwrobotics.uwaterloo.ca/' target='_blank' rel='noopener noreferrer'><b>UW Robotics Team</b></a>",
         "Managed development for a robot that competed in the <a href='https://iarrc.org/' target='_blank' rel='noopener noreferrer'><b>International Autonomous Robot Racing Competition</b></a>",
-        "Developed software architecture in <b>ROS</b> and <b>C++</b> for perception, mapping, and path planning using a stereo camera, IMU, and LiDAR sensor"
+        "Developed software architecture in <b>ROS</b> and <b>C++</b> for perception, mapping, and path planning using a stereo camera, IMU, and LiDAR sensor",
+        "Built as apart of the <a href='https://uwrobotics.uwaterloo.ca/' target='_blank' rel='noopener noreferrer'><b>UW Robotics Team</b></a>"
       ],
       "githubLinks": [
         "https://github.com/uwrobotics/RR-Hummingbot-Software",
@@ -34,6 +46,29 @@
       ],
       "githubLinks": [
         "https://github.com/w29ahmed/ECE298-Bicycle-Sensor"
+      ]
+    },
+    {
+      "title": "Agilite",
+      "skills": ["Python", "OpenCV", "TensorFlow"],
+      "bullets": [
+        "Built an image processing pipeline in <b>Python</b> using <b>OpenCV</b> and <b>TensorFlow</b> capable of recognizing handwritten text from an agile board",
+        "Integrated the output of image pipeline with a frontend implemented using Vue.js",
+        "Built at <a href='https://deltahacks5.devpost.com/' target='_blank' rel='noopener noreferrer'><b>DeltaHacks V</b>"
+      ],
+      "githubLinks": [
+        "https://github.com/w29ahmed/Agilite"
+      ]
+    },
+    {
+      "title": "JukeBox",
+      "skills": ["C", "Arduino"],
+      "bullets": [
+        "An <b>Arduino</b> based jukebox that supports selection and playback between 5 songs",
+        "One of my earliest projects that first got me excited about computers and programming"
+      ],
+      "githubLinks": [
+        "https://github.com/w29ahmed/Arduino-JukeBox"
       ]
     }
   ]
