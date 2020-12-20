@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "title": "Autonomous Robot Racing",
+      "skills": ["C++", "OpenCV", "ROS"],
+      "bullets": ["test1", "test2", "test3"],
+      "githubLinks": [
+        "https://github.com/uwrobotics/RR-Hummingbot-Software",
+        "https://github.com/uwrobotics/RobotRacing2018"
+      ]
+    }
+  ]
+}
