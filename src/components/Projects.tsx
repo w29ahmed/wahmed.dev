@@ -18,10 +18,10 @@ const Projects = () => {
 
         <Row className="project-row">
           {projects.projects.map((project) => (
-            <Col lg="4" md="6">
+            <Col lg="4" md="6" className="card-col">
               <Card>
                 <Card.Header>
-                  <h4>{project.title}</h4>
+                  <h2>{project.title}</h2>
                   {project.githubLinks.map((ghLink) => (
                     <a href={ghLink} target="_blank" rel="noopener noreferrer">
                       <FaGithub className="github-icon" />

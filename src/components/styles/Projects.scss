@@ -13,7 +13,8 @@
     }
   }
 
-  h4 {
+  h2 {
+    font-size: 1.5rem;
     display: inline-block;
   }
 
@@ -46,5 +47,37 @@
   ul {
     text-align: left;
     margin-top: 10px;
+  }
+
+  .card-col {
+    margin-top: 30px;
+  }
+
+  .project-row {
+    margin-top: -30px;;
+  }
+}
+
+@media screen and (max-width: $max-width-font-reduce) {
+  #projects {
+    .badge-pill {
+      font-size: 0.7rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    .card-body {
+      padding-top: 5px;
+    }
+
+    .project-row {
+      margin-top: -10px;
+    }
+
+    .card-col {
+      margin-top: 10px;
+    }
   }
 }
