@@ -6,7 +6,7 @@
       "bullets": [
         "Fully designed and built by me",
         "<b>Bootstrap</b> used for responsive layout and as a <b>React</b> component library",
-        "<b>Sass</b> mixins used to switch between light and dark theme"
+        "<b>Sass</b> mixins used to efficiently style light and dark themes"
       ],
       "githubLinks": [
         "https://github.com/w29ahmed/w29ahmed.github.io"
