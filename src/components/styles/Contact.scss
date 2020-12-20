@@ -1,0 +1,15 @@
+@import "bootstrap";
+@import "themes";
+@import "global";
+
+#contact {
+  margin-top: $spacing-between-sections;
+
+  h1 {
+    margin-left: 5%;
+  
+    hr {
+      margin-top: 3%;
+    }
+  }
+}

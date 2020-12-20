@@ -1,0 +1,16 @@
+@import "bootstrap";
+@import "themes";
+@import "global";
+
+footer {
+  margin-top: $spacing-between-sections;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightgrey;
+  text-align: center;
+
+  p {
+    margin-bottom: 0px;
+  }
+}
