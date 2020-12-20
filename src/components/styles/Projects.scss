@@ -13,8 +13,38 @@
     }
   }
 
+  h4 {
+    display: inline-block;
+  }
+
   .project-row {
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .github-icon {
+    @include themed() {
+      color: t("secondary-color");
+    }
+    margin-left: 10px;
+    margin-top: -10px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .badge-pill {
+    font-size: 0.9rem;
+    margin: 3px;
+  }
+
+  .card {
+    height: 100%;
+  }
+  .card-body {
+    padding-bottom: 0px;
+  }
+  ul {
+    text-align: left;
+    margin-top: 10px;
   }
 }

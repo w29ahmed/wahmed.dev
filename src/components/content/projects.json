@@ -2,12 +2,40 @@
   "projects": [
     {
       "title": "Autonomous Robot Racing",
-      "skills": ["C++", "OpenCV", "ROS"],
-      "bullets": ["test1", "test2", "test3"],
+      "skills": ["C++", "Python", "OpenCV", "ROS"],
+      "bullets": [
+        "Built as apart of the <a href='https://uwrobotics.uwaterloo.ca/' target='_blank' rel='noopener noreferrer'><b>UW Robotics Team</b></a>",
+        "Managed development for a robot that competed in the <a href='https://iarrc.org/' target='_blank' rel='noopener noreferrer'><b>International Autonomous Robot Racing Competition</b></a>",
+        "Developed software architecture in <b>ROS</b> and <b>C++</b> for perception, mapping, and path planning using a stereo camera, IMU, and LiDAR sensor"
+      ],
       "githubLinks": [
         "https://github.com/uwrobotics/RR-Hummingbot-Software",
         "https://github.com/uwrobotics/RobotRacing2018"
       ]
+    },
+    {
+      "title": "Synviz",
+      "skills": ["Python", "Flask", "GCP", "OpenCV", "Tensorflow"],
+      "bullets": [
+        "Built an IoT device that could decode spoken text from facial input",
+        "Developed a backend web server in <b>Python</b> using <b>Flask</b>, <b>GCP</b>, <b>OpenCV</b>, and <b>TensorFlow</b>",
+        "Won 3rd place at <a href='https://uofthacksvii.devpost.com/' target='_blank' rel='noopener noreferrer'><b>UofTHacks VII</b></a>"
+      ],
+      "githubLinks": [
+        "https://github.com/w29ahmed/Synviz"
+      ]
+    },
+    {
+      "title": "Bicycle Sensor",
+      "skills": ["C", "MSP430", "PCB"],
+      "bullets": [
+        "Built as apart of a course project for ECE298",
+        "Designed hardware and software for an ultrasonic object detection module aimed at cyclists on the <a href='https://www.ti.com/product/MSP430FR4133' target='_blank' rel='noopener noreferrer'><b>MSP430</b></a> low power MCU platform"
+      ],
+      "githubLinks": [
+        "https://github.com/w29ahmed/ECE298-Bicycle-Sensor"
+      ]
     }
   ]
 }
+

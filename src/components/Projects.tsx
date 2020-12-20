@@ -22,6 +22,11 @@ const Projects = () => {
               <Card>
                 <Card.Header>
                   <h4>{project.title}</h4>
+                  {project.githubLinks.map((ghLink) => (
+                    <a href={ghLink} target="_blank" rel="noopener noreferrer">
+                      <FaGithub className="github-icon" />
+                    </a>
+                  ))}
                 </Card.Header>
 
                 <Card.Body>
@@ -33,15 +38,9 @@ const Projects = () => {
 
                   <ul>
                     {project.bullets.map((bullet) => (
-                      <li>{bullet}</li>
+                      <li dangerouslySetInnerHTML={{ __html: bullet }} />
                     ))}
                   </ul>
-
-                  {project.githubLinks.map((ghLink) => (
-                    <a href={ghLink}>
-                      <FaGithub />
-                    </a>
-                  ))}
                 </Card.Body>
               </Card>
             </Col>

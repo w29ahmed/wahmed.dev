@@ -121,7 +121,7 @@ const ExperienceCarousel = () => {
 
                 <ul className="experience-bullets">
                   {experience.jobs[index].bullets.map((bullet) => (
-                    <li dangerouslySetInnerHTML={{ __html: bullet }}></li>
+                    <li dangerouslySetInnerHTML={{ __html: bullet }}/>
                   ))}
                 </ul>
               </Container>
