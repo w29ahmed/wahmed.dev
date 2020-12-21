@@ -12,4 +12,35 @@
       margin-top: 3%;
     }
   }
+
+  .education-row {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .school-name {
+    @include themed() {
+      color: t("secondary-color");
+    }
+  }
+
+  .uw-logo-col {
+    display: flex;
+  }
+
+  .uw-logo {
+    margin: auto;
+    max-height: 130px;
+    max-width: 100%;
+  }
+
+  .icon-text {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .badge-pill {
+    margin: 5px;
+  }
 }

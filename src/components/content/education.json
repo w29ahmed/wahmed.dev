@@ -1,0 +1,24 @@
+{
+  "degree": "B.ASc Computer Engineering, Option in Artificial Intelligence",
+  "school": "University of Waterloo",
+  "date": "Sep 2017 - Apr 2022",
+  "logo": "/assets/img/uw.png",
+  "courses": [
+    "Algorithms & Data Structures",
+    "Compilers",
+    "Computer Networks",
+    "Database Systems",
+    "Digital Computers",
+    "Digital Hardware Systems",
+    "Embedded Microprocessor Systems",
+    "Numerical Methods",
+    "Real-Time Operating Systems",
+    "Systems Programming & Concurrency"
+  ],
+  "onlineCourses": [
+    "Udemy: Web Development Bootcamp",
+    "Coursera: Self-Driving Cars Specialization",
+    "Coursera: Machine Learning (Andrew Ng)",
+    "Udemy: Computer Vision"
+  ]
+}
