@@ -1,0 +1,53 @@
+@import "bootstrap";
+@import "themes";
+@import "global";
+
+#dropdown {
+  h4 {
+    display: inline-block;
+  }
+
+  .badge-pill {
+    margin: 5px;
+  }
+
+  .arrow-down {
+    @include themed() {
+      color: t("secondary-color");
+    }
+    transition: transform 250ms;
+    margin-top: -5px;
+  }
+  .arrow-down:hover {
+    opacity: 0.5;
+  }
+
+  .arrow-up {
+    @include themed() {
+      color: t("secondary-color");
+    }
+    transform: rotate(180deg);
+    transition: transform 250ms;
+  }
+  .arrow-up:hover {
+    opacity: 0.5;
+  }
+
+  .dropdown-content-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .dropdown-content-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 250ms, transform 250ms;;
+  }
+  .dropdown-content-exit {
+    opacity: 1;
+  }
+  .dropdown-content-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 250ms, transform 250ms;
+  }
+}

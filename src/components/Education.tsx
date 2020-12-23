@@ -2,8 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Badge from "react-bootstrap/Badge";
 import { FaCalendar } from "react-icons/fa";
+import Dropdown from "./Dropdown";
 import education from "./content/education.json";
 import "./styles/Education.scss";
 
@@ -32,25 +32,11 @@ const Education = () => {
           </Col>
 
           <Col lg="12">
-            <h4>Relevant Coursework:</h4>
-            <ul>
-              {education.courses.map((course) => (
-                <Badge pill variant="primary">
-                  {course}
-                </Badge>
-              ))}
-            </ul>
+            <Dropdown title="Relevant Coursework" content={education.courses}/>
           </Col>
 
           <Col lg="12">
-            <h4>Online Coursework:</h4>
-            <ul>
-              {education.onlineCourses.map((course) => (
-                <Badge pill variant="primary">
-                  {course}
-                </Badge>
-              ))}
-            </ul>
+            <Dropdown title="Online Coursework" content={education.onlineCourses}/>
           </Col>
         </Row>
       </Container>
