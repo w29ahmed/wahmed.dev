@@ -26,6 +26,7 @@
     @include themed() {
       color: t("secondary-color");
     }
+    margin-top: -5px;
     transform: rotate(180deg);
     transition: transform 250ms;
   }

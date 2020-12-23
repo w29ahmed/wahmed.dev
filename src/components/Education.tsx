@@ -30,13 +30,18 @@ const Education = () => {
               alt="UW logo"
             />
           </Col>
+        </Row>
 
-          <Col lg="12">
-            <Dropdown title="Relevant Coursework" content={education.courses}/>
+        <Row className="courses">
+          <Col lg="6">
+            <Dropdown title="Relevant Coursework" content={education.courses} />
           </Col>
 
-          <Col lg="12">
-            <Dropdown title="Online Coursework" content={education.onlineCourses}/>
+          <Col lg="6">
+            <Dropdown
+              title="Online Coursework"
+              content={education.onlineCourses}
+            />
           </Col>
         </Row>
       </Container>

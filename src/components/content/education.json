@@ -5,20 +5,20 @@
   "logo": "/assets/img/uw.png",
   "courses": [
     "Algorithms & Data Structures",
+    "Systems Programming & Concurrency",
+    "Real-Time Operating Systems",
     "Compilers",
     "Computer Networks",
     "Database Systems",
+    "Embedded Microprocessor Systems",
     "Digital Computers",
     "Digital Hardware Systems",
-    "Embedded Microprocessor Systems",
-    "Numerical Methods",
-    "Real-Time Operating Systems",
-    "Systems Programming & Concurrency"
+    "Numerical Methods"
   ],
   "onlineCourses": [
     "Udemy: Web Development Bootcamp",
     "Coursera: Self-Driving Cars Specialization",
-    "Coursera: Machine Learning (Andrew Ng)",
+    "Coursera: Machine Learning",
     "Udemy: Computer Vision"
   ]
 }
