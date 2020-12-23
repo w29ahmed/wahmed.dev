@@ -5,9 +5,14 @@ import Badge from "react-bootstrap/Badge";
 import { FaAngleDown } from "react-icons/fa";
 import "./styles/Dropdown.scss";
 
+interface Course {
+  name: string;
+  link: string;
+}
+
 interface DropdownProps {
   title: string;
-  content: string[];
+  content: Course[];
 }
 
 const Dropdown = (props: DropdownProps) => {
@@ -32,9 +37,11 @@ const Dropdown = (props: DropdownProps) => {
       >
         <ul>
           {props.content.map((c) => (
-            <Badge pill variant="primary">
-              {c}
-            </Badge>
+            <a href={c.link} target="_blank" rel="noopener noreferrer">
+              <Badge pill variant="primary">
+                {c.name}
+              </Badge>
+            </a>
           ))}
         </ul>
       </CSSTransition>

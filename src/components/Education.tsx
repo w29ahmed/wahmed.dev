@@ -24,11 +24,13 @@ const Education = () => {
           </Col>
 
           <Col lg="4" className="uw-logo-col">
-            <img
-              src={process.env.PUBLIC_URL + education.logo}
-              className="uw-logo"
-              alt="UW logo"
-            />
+            <a href={education.link} target="_blank" rel="noopener noreferrer">
+              <img
+                src={process.env.PUBLIC_URL + education.logo}
+                className="uw-logo"
+                alt="UW logo"
+              />
+            </a>
           </Col>
         </Row>
 

@@ -1,24 +1,52 @@
 {
   "degree": "B.ASc Computer Engineering, Option in Artificial Intelligence",
   "school": "University of Waterloo",
+  "link": "https://uwaterloo.ca/future-students/programs/computer-engineering",
   "date": "Sep 2017 - Apr 2022",
   "logo": "/assets/img/uw.png",
   "courses": [
-    "Algorithms & Data Structures",
-    "Systems Programming & Concurrency",
-    "Real-Time Operating Systems",
-    "Compilers",
-    "Computer Networks",
-    "Database Systems",
-    "Embedded Microprocessor Systems",
-    "Digital Computers",
-    "Digital Hardware Systems",
-    "Numerical Methods"
+    {
+      "name": "Algorithms & Data Structures",
+      "link": "https://uwflow.com/course/ece250"
+    },
+    {
+      "name": "Systems Programming & Concurrency",
+      "link": "https://uwflow.com/course/ece252"
+    },
+    {
+      "name": "Real-Time Operating Systems",
+      "link": "https://uwflow.com/course/ece350"
+    },
+    { "name": "Compilers", "link": "https://uwflow.com/course/ece351" },
+    { "name": "Computer Networks", "link": "https://uwflow.com/course/ece358" },
+    { "name": "Database Systems", "link": "https://uwflow.com/course/ece356" },
+    {
+      "name": "Embedded Microprocessor Systems",
+      "link": "https://uwflow.com/course/ece224"
+    },
+    { "name": "Digital Computers", "link": "https://uwflow.com/course/ece222" },
+    {
+      "name": "Digital Hardware Systems",
+      "link": "https://uwflow.com/course/ece327"
+    },
+    { "name": "Numerical Methods", "link": "https://uwflow.com/course/ece204" }
   ],
   "onlineCourses": [
-    "Udemy: Web Development Bootcamp",
-    "Coursera: Self-Driving Cars Specialization",
-    "Coursera: Machine Learning",
-    "Udemy: Computer Vision"
+    {
+      "name": "Udemy: Web Development Bootcamp",
+      "link": "https://www.udemy.com/certificate/UC-28be8e98-f2a4-4989-b09c-df1ee4a4cc03/"
+    },
+    {
+      "name": "Coursera: Self-Driving Cars Specialization",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/BA8UYMH6SUSL"
+    },
+    {
+      "name": "Coursera: Machine Learning",
+      "link": "https://www.coursera.org/account/accomplishments/verify/AELG6KXXJ88V"
+    },
+    {
+      "name": "Udemy: Computer Vision",
+      "link": "https://www.udemy.com/certificate/UC-TJRJ90AG/"
+    }
   ]
 }

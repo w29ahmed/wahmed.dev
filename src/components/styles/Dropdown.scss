@@ -10,6 +10,9 @@
   .badge-pill {
     margin: 5px;
   }
+  .badge-pill:hover {
+    opacity: 0.75;
+  }
 
   .arrow-down {
     @include themed() {
