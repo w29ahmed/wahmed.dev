@@ -4,13 +4,64 @@
 
 footer {
   margin-top: $spacing-between-sections;
-
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: lightgrey;
   text-align: center;
 
+  @include themed() {
+    background-color: t("footer-color");
+  }
+
   p {
+    display: inline-block;
+    font-weight: 800;
     margin-bottom: 0px;
+    @include themed() {
+      color: t("footer-text");
+    }
+  }
+
+  .icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -3px;
+    width: 25px;
+    height: 25px;
+    @include themed() {
+      color: t("secondary-color");
+    }
+  }
+  .icon:hover {
+    opacity: 0.75;
+  }
+
+  .mail {
+    margin-left: 10px;
+  }
+
+  .copyright {
+    width: 15px;
+    height: 15px;
+    margin-top: -3px;
+    margin-right: 3px;
+    @include themed() {
+      color: t("footer-text");
+    }
+  }
+}
+
+
+@media screen and (max-width: $max-width-font-reduce) {
+  footer {
+    .icon {
+      margin-top: 0px;
+      width: 18px;
+      height: 18px;
+    }
+    .copyright {
+      margin-top: 0px;
+      width: 12px;
+      height: 12px;
+    }
   }
 }
