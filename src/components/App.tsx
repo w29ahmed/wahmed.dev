@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import About from "./About";
 import Skills from "./Skills";
@@ -9,10 +9,15 @@ import Footer from "./Footer";
 import "./styles/App.scss";
 
 const App = () => {
+  const [darkTheme, setDarkTheme] = useState(false);
+
   return (
-    <div className="theme-light">
+    <div className={darkTheme ? "theme-dark" : "theme-light"}>
       <div className="base">
-        <Header />
+        <Header
+          darkTheme={darkTheme}
+          toggleTheme={() => setDarkTheme((prev) => !prev)}
+        />
         <About />
         <Skills />
         <Experience />

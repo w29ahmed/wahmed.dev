@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
@@ -17,22 +17,25 @@ const sections = [
   "contact",
 ];
 
-const Header = () => {
-  const [darkTheme, setDarkTheme] = useState(false);
+interface HeaderProps {
+  darkTheme: boolean;
+  toggleTheme: () => void;
+}
 
+const Header = (props : HeaderProps) => {
   return (
     <Navbar
       sticky="top"
       collapseOnSelect
       expand="md"
-      variant={darkTheme ? "dark" : "light"}
-      bg={darkTheme ? "dark" : "light"}
+      variant={props.darkTheme ? "dark" : "light"}
+      bg={props.darkTheme ? "dark" : "light"}
       className="header"
     >
       <label htmlFor="theme-switch">
         <Switch
-          checked={darkTheme}
-          onChange={() => setDarkTheme((prev) => !prev)}
+          checked={props.darkTheme}
+          onChange={() => props.toggleTheme()}
           onColor="#814ad8"
           handleDiameter={30}
           uncheckedIcon={<FaSun className="sun"/>}
