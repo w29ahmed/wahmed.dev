@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.51ddb0ec.chunk.css",
-    "main.js": "/static/js/main.edf9a222.chunk.js",
-    "main.js.map": "/static/js/main.edf9a222.chunk.js.map",
+    "main.css": "/static/css/main.25f7eace.chunk.css",
+    "main.js": "/static/js/main.add6d401.chunk.js",
+    "main.js.map": "/static/js/main.add6d401.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d14f6f38.js",
     "runtime-main.js.map": "/static/js/runtime-main.d14f6f38.js.map",
     "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3d10868a.chunk.js.map": "/static/js/2.3d10868a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.51ddb0ec.chunk.css.map": "/static/css/main.51ddb0ec.chunk.css.map",
+    "static/css/main.25f7eace.chunk.css.map": "/static/css/main.25f7eace.chunk.css.map",
     "static/js/2.3d10868a.chunk.js.LICENSE.txt": "/static/js/2.3d10868a.chunk.js.LICENSE.txt",
     "static/media/Waleed_Ahmed_Resume.c5373f16.pdf": "/static/media/Waleed_Ahmed_Resume.c5373f16.pdf"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.d14f6f38.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.3d10868a.chunk.js",
-    "static/css/main.51ddb0ec.chunk.css",
-    "static/js/main.edf9a222.chunk.js"
+    "static/css/main.25f7eace.chunk.css",
+    "static/js/main.add6d401.chunk.js"
   ]
 }
