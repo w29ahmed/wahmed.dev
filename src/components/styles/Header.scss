@@ -1,7 +1,23 @@
 @import "themes";
+@import "global";
 
 .header {
   font-weight: 800;
+
+  label {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .sun {
+    color: yellow;
+    margin: 0px 3px;
+  }
+
+  .moon {
+    color: #ffffff;
+    margin: 0px 5px;
+  }
 
   .resume-button {
     @include themed() {
@@ -14,4 +30,8 @@
   .resume-button:hover {
     opacity: .75;
   }
+}
+
+.navbar {
+  transition: background-color $theme-toggle-time;
 }
