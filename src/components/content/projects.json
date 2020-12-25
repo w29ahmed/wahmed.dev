@@ -27,7 +27,7 @@
     },
     {
       "title": "Synviz",
-      "skills": ["Python", "Flask", "GCP", "OpenCV", "Tensorflow"],
+      "skills": ["Python", "Flask", "GCP", "OpenCV", "Tensorflow", "Raspberry Pi"],
       "bullets": [
         "Built an IoT device that could decode spoken text from facial input",
         "Developed a backend web server in <b>Python</b> using <b>Flask</b>, <b>GCP</b>, <b>OpenCV</b>, and <b>TensorFlow</b>",
