@@ -11,13 +11,15 @@ import "./styles/App.scss";
 const App = () => {
   return (
     <div className="theme-light">
-      <Header />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Education />
-      <Footer />
+      <div className="base">
+        <Header />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Footer />
+      </div>
     </div>
   );
 };

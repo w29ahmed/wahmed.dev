@@ -6,6 +6,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.base {
+  @include themed() {
+    background-image: t("background-image");
+  }
+}
+
 h1 {
   display: inline-block;
   font-size: 3.5rem;

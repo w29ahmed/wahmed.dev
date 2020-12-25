@@ -4,11 +4,13 @@
 
 $themes: (
   light: (
+    background-image: url("../../img/cubes.png"),
     secondary-color: #0e49b5,
     footer-color: #f8f9fa,
     footer-text: rgba(0, 0, 0, 0.5),
   ),
   dark: (
+    background-image: "",
     secondary-color: green,
     footer-color: #f8f9fa,
     footer-text: rgba(0, 0, 0, 0.5),
