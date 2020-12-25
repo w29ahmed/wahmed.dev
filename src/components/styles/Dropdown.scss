@@ -15,10 +15,10 @@
   }
 
   .arrow-down {
+    transition: transform 250ms, color $theme-toggle-time;
     @include themed() {
       color: t("secondary-color");
     }
-    transition: transform 250ms;
     margin-top: -5px;
   }
   .arrow-down:hover {
@@ -26,12 +26,12 @@
   }
 
   .arrow-up {
+    transition: transform 250ms, color $theme-toggle-time;
     @include themed() {
       color: t("secondary-color");
     }
     margin-top: -5px;
     transform: rotate(180deg);
-    transition: transform 250ms;
   }
   .arrow-up:hover {
     opacity: 0.5;

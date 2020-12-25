@@ -8,7 +8,11 @@ import { FaGithub } from "react-icons/fa";
 import projects from "./content/projects.json";
 import "./styles/Projects.scss";
 
-const Projects = () => {
+interface ProjectsProps {
+  darkTheme: boolean;
+}
+
+const Projects = (props: ProjectsProps) => {
   return (
     <section id="projects">
       <Container fluid>
@@ -19,7 +23,10 @@ const Projects = () => {
         <Row className="project-row">
           {projects.projects.map((project) => (
             <Col lg="4" md="6" className="card-col">
-              <Card>
+              <Card
+                bg={props.darkTheme ? "dark" : "light"}
+                text={props.darkTheme ? "light" : "dark"}
+              >
                 <Card.Header>
                   <h2>{project.title}</h2>
                   {project.githubLinks.map((ghLink) => (

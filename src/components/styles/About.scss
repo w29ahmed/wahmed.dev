@@ -9,6 +9,7 @@
 .about-waleed-img {
   display: block;
   margin: auto;
+  transition: border $theme-toggle-time;
   @include themed() {
     border: 0.5rem solid t("secondary-color");
   }
@@ -21,6 +22,7 @@
 }
 
 .about-secondary-color {
+  transition: color $theme-toggle-time;
   @include themed() {
     color: t("secondary-color");
   }

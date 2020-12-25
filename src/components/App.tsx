@@ -19,9 +19,9 @@ const App = () => {
           toggleTheme={() => setDarkTheme((prev) => !prev)}
         />
         <About />
-        <Skills />
+        <Skills darkTheme={darkTheme}/>
         <Experience />
-        <Projects />
+        <Projects darkTheme={darkTheme}/>
         <Education />
         <Footer />
       </div>

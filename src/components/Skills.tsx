@@ -7,7 +7,11 @@ import Badge from "react-bootstrap/Badge";
 import skills from "./content/skills.json";
 import "./styles/Skills.scss";
 
-const Skills = () => {
+interface SkillsProps {
+  darkTheme: boolean;
+}
+
+const Skills = (props: SkillsProps) => {
   return (
     <section id="skills">
       <Container fluid>
@@ -17,7 +21,11 @@ const Skills = () => {
 
         <Row className="skill-cards">
           <Col sm="12" md="12" lg="4">
-            <Card className="skill-card">
+            <Card
+              className="skill-card"
+              bg={props.darkTheme ? "dark" : "light"}
+              text={props.darkTheme ? "light" : "dark"}
+            >
               <Card.Header>
                 <h2>Languages</h2>
               </Card.Header>
@@ -31,7 +39,11 @@ const Skills = () => {
             </Card>
           </Col>
           <Col sm="12" md="6" lg="4" className="middle-card">
-            <Card className="skill-card">
+            <Card
+              className="skill-card"
+              bg={props.darkTheme ? "dark" : "light"}
+              text={props.darkTheme ? "light" : "dark"}
+            >
               <Card.Header>
                 <h2>Libraries & Frameworks</h2>
               </Card.Header>
@@ -45,7 +57,11 @@ const Skills = () => {
             </Card>
           </Col>
           <Col sm="12" md="6" lg="4">
-            <Card className="skill-card">
+            <Card
+              className="skill-card"
+              bg={props.darkTheme ? "dark" : "light"}
+              text={props.darkTheme ? "light" : "dark"}
+            >
               <Card.Header>
                 <h2>Tools & Technologies</h2>
               </Card.Header>

@@ -20,6 +20,7 @@
   }
 
   .resume-button {
+    transition: background $theme-toggle-time;
     @include themed() {
       background: t("secondary-color");
     }
@@ -30,8 +31,4 @@
   .resume-button:hover {
     opacity: .75;
   }
-}
-
-.navbar {
-  transition: background-color $theme-toggle-time;
 }

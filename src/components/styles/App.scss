@@ -7,8 +7,11 @@ body {
 }
 
 .base {
+  transition: background-color $theme-toggle-time, color $theme-toggle-time;
   @include themed() {
     background-image: t("background-image");
+    background-color: t("background-color");
+    color: t("text-color");
   }
 }
 
@@ -21,6 +24,7 @@ h1 {
 .badge-pill {
   font-size: 1.2rem;
   margin: 1%;
+  transition: background-color $theme-toggle-time;
   @include themed() {
     background-color: t("secondary-color");
   }
@@ -71,4 +75,19 @@ a:active {
   body {
     text-align: center;
   }
+}
+
+// Bootstrap class transitions on theme change
+.navbar {
+  transition: background-color $theme-toggle-time, color $theme-toggle-time;
+}
+.nav-link {
+  transition: color $theme-toggle-time;
+}
+.card {
+  transition: background-color $theme-toggle-time, color $theme-toggle-time;
+}
+
+hr {
+  background-color: white;
 }

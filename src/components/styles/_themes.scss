@@ -5,15 +5,19 @@
 $themes: (
   light: (
     background-image: url("../../img/cubes.png"),
+    background-color: white,
+    text-color: black,
     secondary-color: #0e49b5,
     footer-color: #f8f9fa,
     footer-text: rgba(0, 0, 0, 0.5),
   ),
   dark: (
     background-image: "",
-    secondary-color: green,
-    footer-color: #f8f9fa,
-    footer-text: rgba(0, 0, 0, 0.5),
+    background-color: #1e2124,
+    text-color: white,
+    secondary-color: #217bcf,
+    footer-color: #343a40,
+    footer-text: rgba(255,255,255,.5),
   ),
 );
 
