@@ -3,7 +3,11 @@ import Container from "react-bootstrap/esm/Container";
 import ExperienceCarousel from "./ExperienceCarousel";
 import "./styles/Experience.scss";
 
-const Experience = () => {
+interface ExperienceProps {
+  darkTheme: boolean;
+}
+
+const Experience = (props: ExperienceProps) => {
   return (
     <section id="experience">
       <Container fluid>
@@ -11,7 +15,7 @@ const Experience = () => {
           Experience <hr />
         </h1>
 
-        <ExperienceCarousel />
+        <ExperienceCarousel darkTheme={props.darkTheme}/>
       </Container>
     </section>
   );

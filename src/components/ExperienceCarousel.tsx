@@ -14,7 +14,11 @@ import {
 import experience from "./content/experience.json";
 import "./styles/ExperienceCarousel.scss";
 
-const ExperienceCarousel = () => {
+interface ExperienceCarouselProps {
+  darkTheme: boolean;
+}
+
+const ExperienceCarousel = (props: ExperienceCarouselProps) => {
   const [index, setIndex] = useState(0);
   const [animate, setAnimate] = useState("");
 
@@ -95,7 +99,9 @@ const ExperienceCarousel = () => {
                     >
                       <img
                         src={
-                          process.env.PUBLIC_URL + experience.jobs[index].logo
+                          process.env.PUBLIC_URL + (props.darkTheme
+                            ? experience.jobs[index].logoDark
+                            : experience.jobs[index].logoLight)
                         }
                         className={experience.jobs[index].css}
                         alt="company logo"
@@ -121,7 +127,7 @@ const ExperienceCarousel = () => {
 
                 <ul className="experience-bullets">
                   {experience.jobs[index].bullets.map((bullet) => (
-                    <li dangerouslySetInnerHTML={{ __html: bullet }}/>
+                    <li dangerouslySetInnerHTML={{ __html: bullet }} />
                   ))}
                 </ul>
               </Container>

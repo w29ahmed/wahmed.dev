@@ -20,7 +20,7 @@ const App = () => {
         />
         <About />
         <Skills darkTheme={darkTheme}/>
-        <Experience />
+        <Experience darkTheme={darkTheme}/>
         <Projects darkTheme={darkTheme}/>
         <Education />
         <Footer />
