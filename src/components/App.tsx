@@ -9,7 +9,13 @@ import Footer from "./Footer";
 import "./styles/App.scss";
 
 const App = () => {
-  const [darkTheme, setDarkTheme] = useState(false);
+  // 8am - 6pm: light theme, otherwise use dark theme
+  const useDarkTheme = () => {
+    const t = new Date().getHours();
+    return !(t >= 8 && t < 18);
+  }
+
+  const [darkTheme, setDarkTheme] = useState(useDarkTheme());
 
   return (
     <div className={darkTheme ? "theme-dark" : "theme-light"}>
