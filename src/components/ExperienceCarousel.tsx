@@ -30,7 +30,7 @@ const ExperienceCarousel = (props: ExperienceCarouselProps) => {
   // animation finishes running, which is gonna look like the animation stopped abruptly.
   // There's gotta be a better way to do this because this feels like a hack
   useEffect(() => {
-    const timeout = setTimeout(() => setAnimate(""), 300);
+    const timeout = setTimeout(() => setAnimate(""), 350);
     return () => clearTimeout(timeout);
   }, [index]);
 
