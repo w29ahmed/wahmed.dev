@@ -1,4 +1,4 @@
-# w29ahmed.github.io
+# wahmed.dev
 Resumes are great and all, but I dislike being limited to one page. My aim with this site was to break free from that constraint and provide a larger portfolio of all my professional and personal projects!
 
 ### Built with
