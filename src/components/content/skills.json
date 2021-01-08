@@ -22,7 +22,6 @@
     "Bootstrap",
     "Express.js",
     "Flask",
-    "MongoDB",
     "Qt",
     ".NET",
     "NumPy",
@@ -37,12 +36,14 @@
     "QNX",
     "Perforce",
     "SVN",
+    "MongoDB",
     "Jenkins",
     "Docker",
     "Vim",
     "Bash",
     "Raspberry Pi",
     "Arduino",
-    "LaTeX"
+    "LaTeX",
+    "Jira"
   ]
 }
