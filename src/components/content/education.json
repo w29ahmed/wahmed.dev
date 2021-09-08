@@ -1,35 +1,37 @@
 {
-  "degree": "B.ASc Computer Engineering, Option in Artificial Intelligence",
+  "degree": "B.ASc Computer Engineering",
   "school": "University of Waterloo",
   "link": "https://uwaterloo.ca/future-students/programs/computer-engineering",
   "date": "Sep 2017 - Apr 2022",
   "logo": "/assets/img/uw.png",
   "courses": [
     {
-      "name": "Algorithms & Data Structures",
-      "link": "https://uwflow.com/course/ece250"
+      "name": "Distributed Computing",
+      "link": "https://uwflow.com/course/ece454"
     },
     {
-      "name": "Systems Programming & Concurrency",
-      "link": "https://uwflow.com/course/ece252"
+      "name": "Robot Dynamics & Control",
+      "link": "https://uwflow.com/course/ece486"
     },
+    {
+      "name": "Cooperative & Adaptive Algorithms",
+      "link": "https://uwflow.com/course/ece457a"
+    },
+    { "name": "Computer Networks", "link": "https://uwflow.com/course/ece358" },
+    { "name": "Database Systems", "link": "https://uwflow.com/course/ece356" },
     {
       "name": "Real-Time Operating Systems",
       "link": "https://uwflow.com/course/ece350"
     },
     { "name": "Compilers", "link": "https://uwflow.com/course/ece351" },
-    { "name": "Computer Networks", "link": "https://uwflow.com/course/ece358" },
-    { "name": "Database Systems", "link": "https://uwflow.com/course/ece356" },
     {
-      "name": "Embedded Microprocessor Systems",
-      "link": "https://uwflow.com/course/ece224"
+      "name": "Systems Programming & Concurrency",
+      "link": "https://uwflow.com/course/ece252"
     },
-    { "name": "Digital Computers", "link": "https://uwflow.com/course/ece222" },
     {
-      "name": "Digital Hardware Systems",
-      "link": "https://uwflow.com/course/ece327"
-    },
-    { "name": "Numerical Methods", "link": "https://uwflow.com/course/ece204" }
+      "name": "Algorithms & Data Structures",
+      "link": "https://uwflow.com/course/ece250"
+    }
   ],
   "onlineCourses": [
     {

@@ -29,7 +29,9 @@
     "Pandas",
     "Matplotlib",
     "Google Test",
-    "TensorFlow"
+    "Thrift",
+    "Hadoop",
+    "Kafka"
   ],
   "tools": [
     "Git",

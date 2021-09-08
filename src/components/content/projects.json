@@ -16,13 +16,13 @@
       "title": "Autonomous Robot Racing",
       "skills": ["C++", "Python", "OpenCV", "ROS"],
       "bullets": [
-        "Managed development for a robot that competed in the <a href='https://iarrc.org/' target='_blank' rel='noopener noreferrer'><b>International Autonomous Robot Racing Competition</b></a>",
+        "Managed development for a robot that competed in the <b>International Autonomous Robot Racing Competition</b>",
         "Developed software architecture in <b>ROS</b> and <b>C++</b> for perception, mapping, and path planning using a stereo camera, IMU, and LiDAR sensor",
-        "Built as apart of the <a href='https://uwrobotics.uwaterloo.ca/' target='_blank' rel='noopener noreferrer'><b>UW Robotics Team</b></a>"
+        "Built as apart of the <a href='https://www.uwaterloorobotics.com/' target='_blank' rel='noopener noreferrer'><b>UW Robotics Team</b></a>"
       ],
       "githubLinks": [
-        "https://github.com/uwrobotics/RR-Hummingbot-Software",
-        "https://github.com/uwrobotics/RobotRacing2018"
+        "https://github.com/UWRobotRacing/RR-Hummingbot-Software",
+        "https://github.com/UWRobotRacing/RobotRacing2018"
       ]
     },
     {
