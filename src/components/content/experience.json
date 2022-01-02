@@ -1,6 +1,27 @@
 {
   "jobs": [
     {
+      "title": "Software Engineering Intern",
+      "company": "Zoox",
+      "css": "zoox",
+      "website": "https://zoox.com",
+      "logoLight": "/assets/img/zoox-black.png",
+      "logoDark": "/assets/img/zoox-white.png",
+      "date": "Sep 2021 – Dec 2021",
+      "location": "Foster City, CA",
+      "skills": [
+        "C++",
+        "Python",
+        "ROS",
+        "Git",
+        "Linux"
+      ],
+      "bullets": [
+        "Developed software features for an integration testing framework capable of running driving software on representative hardware using simulated or replayed sensor data",
+        "Designed and implemented an improved sensor playback system that enabled more efficient and accurate playback during integration tests"
+      ]
+    },
+    {
       "title": "Autonomous Vehicles Software Engineering Intern",
       "company": "Huawei",
       "css": "huawei",
