@@ -12,6 +12,7 @@
       "skills": [
         "C++",
         "Python",
+        "Bazel",
         "ROS",
         "Git",
         "Linux"
