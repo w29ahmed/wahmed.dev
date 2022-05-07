@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "title": "Vizia",
+      "skills": ["Python", "Flask", "OpenCV", "PyTorch", "Swift", "SwiftUI", "Raspberry Pi"],
+      "bullets": [
+        "Wearable glasses that can extract and communicate information from an image to a visually impaired user through audio transcription",
+        "Consists of glasses with <b>Raspberry Pi</b> for image capture, <b>Flask</b> web app for computer vision processing, and an <b>iOS</b> app for audio playback",
+        "Developed as a <a href='https://www.eng.uwaterloo.ca/2022-capstone-design/interdisciplinary/welcome/' target='_blank' rel='noopener noreferrer'><b>Capstone Design Project</b></a> at the University of Waterloo"
+      ],
+      "githubLinks": [
+        "https://github.com/vizia-fydp"
+      ]
+    },
+    {
       "title": "This Website!",
       "skills": ["TypeScript", "Sass", "HTML", "React", "Bootstrap"],
       "bullets": [

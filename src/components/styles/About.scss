@@ -4,6 +4,8 @@
 
 #about {
   margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .about-waleed-img {
@@ -13,13 +15,11 @@
   @include themed() {
     border: 0.5rem solid t("secondary-color");
   }
+
+  max-height: 30rem;
+  width: auto;
 }
 
-.about-intro {
-  br {
-    display: none;
-  }
-}
 
 .about-secondary-color {
   transition: color $theme-toggle-time;
@@ -37,11 +37,21 @@
   }
 }
 
+// I tried to be clever and only activate a break to put the typewriter on a newline
+// when it needed more space, but I had trouble getting it to work properly on all
+// screen sizes
+
+// .about-intro {
+//   br {
+//     display: none;
+//   }
+// }
+
 // Breakpoint to ensure TypeWriter text never overflows to newline
-@media screen and (max-width: 1362px) {
-  .about-intro {
-    br {
-      display: inline-block;
-    }
-  }
-}
+// @media screen and (max-width: 1446px) {
+//   .about-intro {
+//     br {
+//       display: inline-block;
+//     }
+//   }
+// }

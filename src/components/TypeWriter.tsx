@@ -64,7 +64,7 @@ const TypeWriter = (props: TypeWriterProps) => {
     }
   }, [pause, props.pauseDelay]);
 
-  return <span>{" " + state.word.substring(0, state.charIndex)}</span>;
+  return <span>{state.word.substring(0, state.charIndex)}</span>;
 };
 
 TypeWriter.defaultProps = { forwardDelay: 75, backDelay: 50, pauseDelay: 1000 };

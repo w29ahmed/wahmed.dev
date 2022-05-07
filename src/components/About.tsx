@@ -28,8 +28,7 @@ const About = () => {
             </h1>
 
             <h2>
-              Hello! I'm an aspiring Software Engineer passionate about
-              <br />
+              Hello! I'm a Software Engineer passionate about <br />
               <span className="about-secondary-color">
                 <Typewriter words={about.interests} />
               </span>
