@@ -1,6 +1,32 @@
 {
   "jobs": [
     {
+      "title": "Software Engineer",
+      "company": "Zoox",
+      "css": "zoox",
+      "website": "https://zoox.com",
+      "logoLight": "/assets/img/zoox-black.png",
+      "logoDark": "/assets/img/zoox-white.png",
+      "date": "Jun 2022 – Present",
+      "location": "Foster City, CA",
+      "skills": [
+        "C++",
+        "Python",
+        "Bazel",
+        "ROS",
+        "Elasticsearch",
+        "Grafana",
+        "Git",
+        "Linux"
+      ],
+      "bullets": [
+        "Developing software features for an integration testing framework capable of running autonomy software on representative hardware using simulated or replayed sensor data",
+        "Creating software tooling and analytics infrastructure to monitor and improve test platform health",
+        "Building a high-level understanding of overall system design and component interaction to help guide requirements and methodology for functional and performance sign-off while providing support to teams using an integration testing framework",
+        "Expanding coverage of the vehicle’s sensors and compute hardware into an integration test; providing a flexible, reliable, and high-performance testing environment"
+      ]
+    },
+    {
       "title": "Software Engineering Intern",
       "company": "Zoox",
       "css": "zoox",
@@ -18,7 +44,7 @@
         "Linux"
       ],
       "bullets": [
-        "Developed software features for an integration testing framework capable of running driving software on representative hardware using simulated or replayed sensor data",
+        "Developed software features for an integration testing framework capable of running autonomy software on representative hardware using simulated or replayed sensor data",
         "Designed and implemented an improved sensor playback system that enabled more efficient and accurate playback during integration tests"
       ]
     },
