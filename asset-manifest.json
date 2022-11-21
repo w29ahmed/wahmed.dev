@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3a1eefe6.chunk.css",
-    "main.js": "/static/js/main.307cb4de.chunk.js",
-    "main.js.map": "/static/js/main.307cb4de.chunk.js.map",
+    "main.js": "/static/js/main.e7c09653.chunk.js",
+    "main.js.map": "/static/js/main.e7c09653.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2949f4d3.js",
     "runtime-main.js.map": "/static/js/runtime-main.2949f4d3.js.map",
     "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
@@ -12,13 +12,13 @@
     "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
     "static/css/main.3a1eefe6.chunk.css.map": "/static/css/main.3a1eefe6.chunk.css.map",
     "static/js/2.249a1246.chunk.js.LICENSE.txt": "/static/js/2.249a1246.chunk.js.LICENSE.txt",
-    "static/media/Waleed_Ahmed_Resume.648a12a3.pdf": "/static/media/Waleed_Ahmed_Resume.648a12a3.pdf"
+    "static/media/Waleed_Ahmed_Resume.daa295f6.pdf": "/static/media/Waleed_Ahmed_Resume.daa295f6.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.2949f4d3.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.249a1246.chunk.js",
     "static/css/main.3a1eefe6.chunk.css",
-    "static/js/main.307cb4de.chunk.js"
+    "static/js/main.e7c09653.chunk.js"
   ]
 }
