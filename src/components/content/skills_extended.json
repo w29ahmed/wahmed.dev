@@ -9,7 +9,13 @@
     "TypeScript",
     "Java",
     "C#",
-    "SQL"
+    "SQL",
+    "HTML",
+    "CSS",
+    "Sass",
+    "QML",
+    "Verilog",
+    "Assembly"
   ],
   "libraries": [
     "ROS",
@@ -23,7 +29,14 @@
     "Flask",
     "Google Test",
     "Pytest",
-    "Qt"
+    "Qt",
+    "NumPy",
+    "Pandas",
+    "Matplotlib",
+    "Thrift",
+    "Hadoop",
+    "Kafka",
+    ".NET"
   ],
   "tools": [
     "Git",
@@ -39,6 +52,9 @@
     "QNX",
     "Vim",
     "Raspberry Pi",
-    "Arduino"
+    "Arduino",
+    "Perforce",
+    "SVN",
+    "MongoDB"
   ]
 }

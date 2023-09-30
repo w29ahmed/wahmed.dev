@@ -12,18 +12,24 @@
       "skills": [
         "C++",
         "Python",
-        "Bazel",
         "ROS",
+        "Protobufs",
+        "DDS",
+        "Pytest",
+        "Git",
+        "Linux",
+        "Bazel",
         "Elasticsearch",
         "Grafana",
-        "Git",
-        "Linux"
+        "Bamboo"
       ],
       "bullets": [
-        "Developing software features for an integration testing framework capable of running autonomy software on representative hardware using simulated or replayed sensor data",
-        "Creating software tooling and analytics infrastructure to monitor and improve test platform health",
-        "Building a high-level understanding of overall system design and component interaction to help guide requirements and methodology for functional and performance sign-off while providing support to teams using an integration testing framework",
-        "Expanding coverage of the vehicle’s sensors and compute hardware into an integration test; providing a flexible, reliable, and high-performance testing environment"
+        "Developing software infrastructure using <b>C++</b> and <b>Python</b> for integration test platforms which utilize simulation and vehicle logs for system validation, safety clearance, and latency testing of driving software",
+        "Successfully investigated and resolved lidar emulator performance issues, reducing fault occurrences from <b>~60%</b> of runs to <b>0%</b>, thereby enhancing the stability and reliability of sensor playback during integration tests",
+        "Implemented fault injection capabilities for lidar playback, enabling fault response testing and safety clearance of driving software releases",
+        "Regularly triaged issues, led investigations, and monitored test platform health as an on-call engineer",
+        "Seamlessly transitioned mission-critical data used for on-call operations and updated its associated data pipelines from a deprecated <b>ElasticSearch</b> cluster to a more stable <b>OpenSearch</b> cluster, ensuring continuous data flow and service availability",
+        "Developed and maintained <b>Grafana</b> dashboards tailored to deliver essential metrics, aiding on-call engineers in their response efficiency"
       ]
     },
     {
