@@ -44,10 +44,12 @@
       "skills": [
         "C++",
         "Python",
-        "Bazel",
         "ROS",
+        "Protobufs",
+        "Pytest",
         "Git",
-        "Linux"
+        "Linux",
+        "Bazel"
       ],
       "bullets": [
         "Developed software features for an integration testing framework capable of running autonomy software on representative hardware using simulated or replayed sensor data",
