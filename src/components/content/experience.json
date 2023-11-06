@@ -24,7 +24,7 @@
         "Bamboo"
       ],
       "bullets": [
-        "Developing software infrastructure using <b>C++</b> and <b>Python</b> for integration test platforms which utilize simulation and vehicle logs for system validation, safety clearance, and latency testing of driving software",
+        "Developing software infrastructure using <b>C++</b> and <b>Python</b> for integration test platforms which utilize simulation and vehicle logs for system validation, safety clearance, and latency testing of autonomy software",
         "Successfully investigated and resolved lidar emulator performance issues, reducing fault occurrences from <b>~60%</b> of runs to <b>0%</b>, thereby enhancing the stability and reliability of sensor playback during integration tests",
         "Implemented fault injection capabilities for lidar playback, enabling fault response testing and safety clearance of driving software releases",
         "Regularly triaged issues, led investigations, and monitored test platform health as an on-call engineer",
