@@ -1,8 +1,35 @@
 {
   "projects": [
     {
+      "title": "Valentine2024",
+      "skills": [
+        "TypeScript",
+        "HTML",
+        "Svelte",
+        "Tailwind CSS"
+      ],
+      "bullets": [
+        "A website to ask somebody to be your Valentine. The catch is, they can't say no!",
+        "Built to explore and learn about modern web frameworks: Svelte and Tailwind CSS"
+      ],
+      "websiteLinks": [
+        "https://w29ahmed.github.io/Valentine2024"
+      ],
+      "githubLinks": [
+        "https://github.com/w29ahmed/Valentine2024"
+      ]
+    },
+    {
       "title": "Vizia",
-      "skills": ["Python", "Flask", "OpenCV", "PyTorch", "Swift", "SwiftUI", "Raspberry Pi"],
+      "skills": [
+        "Python",
+        "Flask",
+        "OpenCV",
+        "PyTorch",
+        "Swift",
+        "SwiftUI",
+        "Raspberry Pi"
+      ],
       "bullets": [
         "Wearable glasses that can extract and communicate information from an image to a visually impaired user through audio transcription",
         "Consists of glasses with <b>Raspberry Pi</b> for image capture, <b>Flask</b> web app for computer vision processing, and an <b>iOS</b> app for audio playback",
@@ -14,7 +41,13 @@
     },
     {
       "title": "This Website!",
-      "skills": ["TypeScript", "Sass", "HTML", "React", "Bootstrap"],
+      "skills": [
+        "TypeScript",
+        "Sass",
+        "HTML",
+        "React",
+        "Bootstrap"
+      ],
       "bullets": [
         "Fully designed and built by me",
         "<b>Bootstrap</b> used for responsive layout and as a <b>React</b> component library",
@@ -26,7 +59,12 @@
     },
     {
       "title": "Autonomous Robot Racing",
-      "skills": ["C++", "Python", "OpenCV", "ROS"],
+      "skills": [
+        "C++",
+        "Python",
+        "OpenCV",
+        "ROS"
+      ],
       "bullets": [
         "Managed development for a robot that competed in the <b>International Autonomous Robot Racing Competition</b>",
         "Developed software architecture in <b>ROS</b> and <b>C++</b> for perception, mapping, and path planning using a stereo camera, IMU, and LiDAR sensor",
@@ -39,7 +77,14 @@
     },
     {
       "title": "Synviz",
-      "skills": ["Python", "Flask", "GCP", "OpenCV", "Tensorflow", "Raspberry Pi"],
+      "skills": [
+        "Python",
+        "Flask",
+        "GCP",
+        "OpenCV",
+        "Tensorflow",
+        "Raspberry Pi"
+      ],
       "bullets": [
         "Built an IoT device that could decode spoken text from facial input",
         "Developed a backend web server in <b>Python</b> using <b>Flask</b>, <b>GCP</b>, <b>OpenCV</b>, and <b>TensorFlow</b>",
@@ -51,7 +96,11 @@
     },
     {
       "title": "Bicycle Sensor",
-      "skills": ["C", "MSP430", "PCB"],
+      "skills": [
+        "C",
+        "MSP430",
+        "PCB"
+      ],
       "bullets": [
         "Built as apart of a course project for ECE298",
         "Designed hardware and software for an ultrasonic object detection module aimed at cyclists on the <a href='https://www.ti.com/product/MSP430FR4133' target='_blank' rel='noopener noreferrer'><b>MSP430</b></a> low power MCU platform"
@@ -62,7 +111,11 @@
     },
     {
       "title": "Agilite",
-      "skills": ["Python", "OpenCV", "TensorFlow"],
+      "skills": [
+        "Python",
+        "OpenCV",
+        "TensorFlow"
+      ],
       "bullets": [
         "Built an image processing pipeline in <b>Python</b> using <b>OpenCV</b> and <b>TensorFlow</b> capable of recognizing handwritten text from an agile board",
         "Integrated the output of image pipeline with a frontend implemented using Vue.js",
@@ -74,7 +127,10 @@
     },
     {
       "title": "JukeBox",
-      "skills": ["C", "Arduino"],
+      "skills": [
+        "C",
+        "Arduino"
+      ],
       "bullets": [
         "An <b>Arduino</b> based jukebox that supports selection and playback between 5 songs",
         "One of my earliest projects that first got me excited about computers and programming"
@@ -85,4 +141,3 @@
     }
   ]
 }
-

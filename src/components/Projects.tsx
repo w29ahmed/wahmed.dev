@@ -5,6 +5,7 @@ import Col from "react-bootstrap/esm/Col";
 import Card from "react-bootstrap/esm/Card";
 import Badge from "react-bootstrap/Badge";
 import { FaGithub } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 import projects from "./content/projects.json";
 import "./styles/Projects.scss";
 
@@ -29,9 +30,14 @@ const Projects = (props: ProjectsProps) => {
               >
                 <Card.Header>
                   <h2>{project.title}</h2>
-                  {project.githubLinks.map((ghLink) => (
+                  {project.websiteLinks?.map((websiteLink) => (
+                    <a href={websiteLink} target="_blank" rel="noopener noreferrer">
+                      <FaGlobe className="link-icon" />
+                    </a>
+                  ))}
+                  {project.githubLinks?.map((ghLink) => (
                     <a href={ghLink} target="_blank" rel="noopener noreferrer">
-                      <FaGithub className="github-icon" />
+                      <FaGithub className="link-icon" />
                     </a>
                   ))}
                 </Card.Header>
