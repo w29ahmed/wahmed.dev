@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "title": "36 Questions",
+      "skills": [
+        "TypeScript",
+        "HTML",
+        "Svelte",
+        "Tailwind CSS"
+      ],
+      "bullets": [
+        "Inspired by the New York Times article <a href='https://web.archive.org/web/20200812060110/https://www.nytimes.com/2015/01/09/style/no-37-big-wedding-or-small.html' target='_blank' rel='noopener noreferrer'>\"36 Questions That Lead to Love\"</a>, this app guides you through thought-provoking questions to foster intimacy and understanding with a partner or a new acquaintance",
+        "Built to explore and learn about modern web frameworks: Svelte and Tailwind CSS"
+      ],
+      "websiteLinks": [
+        "https://w29ahmed.github.io/36questions/"
+      ],
+      "githubLinks": [
+        "https://github.com/w29ahmed/36questions"
+      ]
+    },
+    {
       "title": "Valentine2024",
       "skills": [
         "TypeScript",
