@@ -1,5 +1,23 @@
 {
   "projects": [
+      {
+      "title": "Minesweeper",
+      "skills": [
+        "TypeScript",
+        "HTML",
+        "Svelte",
+        "Tailwind CSS"
+      ],
+      "bullets": [
+        "I first learned Minesweeper during a job interview and quickly got hooked. So I built my own: a clean, modern version with a solver-guided mutation search that generates boards you can work through logically without dead-end guesses"
+      ],
+      "websiteLinks": [
+        "https://w29ahmed.github.io/minesweeper"
+      ],
+      "githubLinks": [
+        "https://github.com/w29ahmed/minesweeper"
+      ]
+    },
     {
       "title": "36 Questions",
       "skills": [
